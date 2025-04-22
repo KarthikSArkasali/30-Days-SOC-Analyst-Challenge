@@ -73,27 +73,22 @@ For this lab, you will need to set up log collection on both Windows and Linux s
  2. Open **Event Viewer:**
 
      - Go to **Applications and Services Logs → Microsoft → Windows → PowerShell → Operational**.
-Step 1: Simulate a Suspicious PowerShell Command
+## **Step 1:** Simulate a Suspicious PowerShell Command
 To simulate a suspicious activity, open an elevated PowerShell session and run the following command:
 
-Get-LocalUser | Select-Object Name, Enabled
+    Get-LocalUser | Select-Object Name, Enabled
 This command lists all local user accounts on the system, which could be used by attackers to enumerate users post-exploitation.
 
-Step 2: Detect the Log in Windows Event Viewer
-Press Win + R, type eventvwr.msc, and press Enter.
+## Step 2: Detect the Log in Windows Event Viewer
+1. Press `Win + R`, type `eventvwr.msc`, and press Enter.
+2. Navigate to: `Applications and Services Logs → Microsoft → Windows → PowerShell → Operational`.
+3. Click **Filter Current Log**, and filter for **Event ID 4104** (which logs PowerShell script execution).
+4. Look for an entry that shows the execution of the **Get-LocalUser command**.
 
-Navigate to: Applications and Services Logs → Microsoft → Windows → PowerShell → Operational.
-
-Click Filter Current Log, and filter for Event ID 4104 (which logs PowerShell script execution).
-
-Look for an entry that shows the execution of the Get-LocalUser command.
-
-Take a screenshot of the event details.
-
-Conclusion:
-Understanding Log Analysis: Logs are crucial for detecting, investigating, and responding to security incidents. Through the use of Windows Event Viewer and Linux log files, you can monitor system activity and identify potential security issues.
-
-SOC Analyst Role: SOC Analysts use log analysis to detect threats, investigate incidents, and ensure system compliance.
+## Conclusion:
+- Understanding Log Analysis: Logs are crucial for detecting, investigating, and responding to security incidents. Through the use of Windows Event Viewer and Linux log files, you can 
+  monitor system activity and identify potential security issues.
+- SOC Analyst Role: SOC Analysts use log analysis to detect threats, investigate incidents, and ensure system compliance.
 
 
 
