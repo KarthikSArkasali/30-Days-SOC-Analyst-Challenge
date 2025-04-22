@@ -84,6 +84,7 @@ This command lists all local user accounts on the system, which could be used by
 2. Navigate to: `Applications and Services Logs → Microsoft → Windows → PowerShell → Operational`.
 3. Click **Filter Current Log**, and filter for **Event ID 4104** (which logs PowerShell script execution).
 4. Look for an entry that shows the execution of the **Get-LocalUser command**.
+5. Take a screenshot of the event details.
 
 ## Conclusion:
 - Understanding Log Analysis: Logs are crucial for detecting, investigating, and responding to security incidents. Through the use of Windows Event Viewer and Linux log files, you can 
