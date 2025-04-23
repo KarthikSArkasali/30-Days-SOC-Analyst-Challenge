@@ -56,7 +56,6 @@ Explanation:
 - **Wazuh:** An open-source security monitoring platform that integrates well with ELK for log analysis and threat detection.
   
 ## Lab Task: Simulating and Detecting Windows Powershell events
-## Lab Setup
 ## Requirements:
 - Systems: Windows 10/11 or Windows Server 2019/2022, Linux (Ubuntu or CentOS)
 - Tools:
