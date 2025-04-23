@@ -86,9 +86,9 @@ This command lists all local user accounts on the system, which could be used by
 5. Take a screenshot of the event details.
 
 ## Conclusion:
-- Understanding Log Analysis: Logs are crucial for detecting, investigating, and responding to security incidents. Through the use of Windows Event Viewer and Linux log files, you can 
+- **Understanding Log Analysis:** Logs are crucial for detecting, investigating, and responding to security incidents. Through the use of Windows Event Viewer and Linux log files, you can 
   monitor system activity and identify potential security issues.
-- SOC Analyst Role: SOC Analysts use log analysis to detect threats, investigate incidents, and ensure system compliance.
+- **SOC Analyst Role:** SOC Analysts use log analysis to detect threats, investigate incidents, and ensure system compliance.
 
 
 
