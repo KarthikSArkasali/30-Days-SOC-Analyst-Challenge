@@ -63,22 +63,22 @@ A **port scan** is a technique used by attackers to probe a system for open port
 
 1. Installing UFW firewall<br>
       
-       sudo apt install ufw<br>
-       sudo ufw enable<br>
-       sudo ufw logging on<br>
-       sudo ufw logging high<br>
+       sudo apt install ufw
+       sudo ufw enable
+       sudo ufw logging on
+       sudo ufw logging high
 
 2. Create a Firewall rule to drop HTTP traffic from Attack machine<br>
      
-       sudo ufw deny from 69.62.84.69 to any port 80 proto tcp<br>
+       sudo ufw deny from 69.62.84.69 to any port 80 proto tcp
 
 3. Reload the firewall rules to take effect<br>
       
-       sudo ufw reload<br>
+       sudo ufw reload
 
 4. Detect the HTTP Scanning traffic<br>
        
-       sudo tail -f /var/log/ufw.log | grep "Attcker IP"<br>
+       sudo tail -f /var/log/ufw.log | grep "Attcker IP"
  
 ## Conclusion
 - ufw.log, combined with firewall logs, is powerful for detecting early-stage reconnaissance
