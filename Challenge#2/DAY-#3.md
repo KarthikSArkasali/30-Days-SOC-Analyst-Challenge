@@ -7,7 +7,7 @@ The objective of this lab is to introduce students to analyzing TCP (Transmissio
 - Operating System: Windows 10/11 (or Linux/macOS)
 - Software: Wireshark (latest version)
 ### Files Needed
-- [Download Sample PCAP file]()
+- [Download Sample PCAP file](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Challenge%232/Protocol_Analysis_pcap.pcapng)
 
 ## TCP Packet Structure and Fields
 **TCP** is a Layer 4 (Transport Layer) protocol that ensures reliable, ordered, and error-checked delivery of data between applications.
