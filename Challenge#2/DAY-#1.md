@@ -8,8 +8,8 @@ The objective of this lab is to introduce students to Wireshark, a powerful pack
 - **Network Adapter:** Required for packet capture
 
 ### Software Required
-[Wireshark](https://www.wireshark.org/download.html) (latest stable version)<br>
-[Download Sample PCAP file](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Challenge%232/Protocol_Analysis_pcap.pcapng)
+- [Wireshark](https://www.wireshark.org/download.html) (latest stable version)<br>
+- [Download Sample PCAP file](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Challenge%232/Protocol_Analysis_pcap.pcapng)
 
 ## YouTube Tutorial Video
 - **Watch:** [Wireshark for Beginners – Hands-On Walkthrough](https://www.youtube.com/watch?v=nmLH0c5YUJk)
