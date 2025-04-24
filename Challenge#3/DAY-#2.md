@@ -80,9 +80,9 @@ Your monitoring system flagged a suspicious file in /tmp. Upon inspection, it's 
 - What was the script doing?
 - Which user executed it?
 - Recommendations:
-- Enable file integrity monitoring (e.g., AIDE).
-- Restrict /tmp execution using mount options (noexec).
-- Educate users about unknown script execution.
+  - Enable file integrity monitoring (e.g., AIDE).
+  - Restrict /tmp execution using mount options (noexec).
+  - Educate users about unknown script execution.
 
 ## Lab Checklist
 - Simulate Script Create and execute a suspicious bash script
