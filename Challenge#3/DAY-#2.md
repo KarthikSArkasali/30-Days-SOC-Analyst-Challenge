@@ -45,9 +45,9 @@ Your monitoring system flagged a suspicious file in /tmp. Upon inspection, it's 
        ./fakebackup.sh &
 
 ## Step-by-Step Investigation
-1. **Preparation**
+**1. Preparation**
 - Install curl, lsof, ps, and grep (usually pre-installed).
-2. **Detection and Analysis**
+**2. Detection and Analysis**
 - Check running processes:
  
       ps aux | grep fakebackup.sh
@@ -56,7 +56,7 @@ Your monitoring system flagged a suspicious file in /tmp. Upon inspection, it's 
 
       find /tmp -name "*.sh"
 
-3. **Containment, Eradication, and Recovery**
+**3. Containment, Eradication, and Recovery**
 
 - Kill any related processes:
 
@@ -72,7 +72,7 @@ Your monitoring system flagged a suspicious file in /tmp. Upon inspection, it's 
 
 - Restart services if needed and log out inactive sessions.
 
-4. **Post-Incident Activity**
+**4. Post-Incident Activity**
 ##### Document:
 
 - What triggered the alert?
