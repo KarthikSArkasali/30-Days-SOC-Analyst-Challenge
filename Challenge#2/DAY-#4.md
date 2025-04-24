@@ -7,7 +7,7 @@ The objective of this lab is to help students analyze HTTP (Hypertext Transfer P
 - Operating System: Windows 10/11 (or Linux/macOS)
 - Software: Wireshark (latest version)
 ### Files Needed
-- [Download Sample PCAP file](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Challenge%232/Protocol_Analysis_pcap.pcapng)
+- [Download Sample PCAP file](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/Protocol_Analysis_pcap.pcapng)
 ## HTTP Packet Structure and Fields
 **HTTP** is an application-layer protocol used for communication between clients (browsers) and web servers. It typically runs over TCP port 80.
 
