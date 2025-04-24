@@ -90,9 +90,9 @@ An attacker has added a cron job that silently runs a malicious script from /tmp
 - What the script was doing
 - Any signs of lateral movement or download activity
 - Recommendations:
-   - Restrict cron job access to authorized users only
-   - Enable cron integrity checks
-   - Set up alerts for new cron entries (using auditd or inotify)
+    - Restrict cron job access to authorized users only
+    - Enable cron integrity checks
+    - Set up alerts for new cron entries (using auditd or inotify)
 
 ## Lab Checklist
 - Simulate Cron Job Create a malicious script and schedule it via cron.
