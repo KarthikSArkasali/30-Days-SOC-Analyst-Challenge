@@ -74,7 +74,7 @@ Example of LOLBAS Tools These are legitimate Windows tools that attackers often 
 |msbuild.exe	|`C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe`	|Execute malicious C# code in project files|
 |installutil.exe	|`C:\Windows\Microsoft.NET\Framework\v4.0.30319\installutil.exe`	|Run code during .NET assembly install|
 |schtasks.exe	|`C:\Windows\System32\schtasks.exe`	|Create scheduled tasks for persistence|
-   ℹ️ For more: lolbas-project.github.io
+    ℹ️ For more: lolbas-project.github.io
 
 ## Conclusion:
 - **PowerShell Logs:** Key to spotting malicious command usage.
