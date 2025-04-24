@@ -14,7 +14,7 @@ Learn how to analyze a phishing email by examining headers, body, URLs, and atta
 |**Smishing**	|Phishing via SMS messages with malicious links|
 |**Vishing**	|Voice phishing calls pretending to be from IT/helpdesk|
 |**Clone Phishing**	|Re-sending a legitimate email with a malicious link or file replaced|
-|**Business Email** Compromise (BEC)	Impersonating senior staff to trick finance/HR teams into transferring money or data|
+|**Business Email** Compromise (BEC)	|Impersonating senior staff to trick finance/HR teams into transferring money or data|
 
 ## Phishing Techniques with Examples
 |Technique|	Example|
@@ -59,9 +59,9 @@ Learn how to analyze a phishing email by examining headers, body, URLs, and atta
 |Base64 or hex-encoded payloads	|Hidden in HTML or script content|
 |Unexpected themes (invoice, CV, notice)	|Frequently used to grab user attention|
 
-##🧪 Task: Investigating a Lookalike Domain Email
+## Task: Investigating a Lookalike Domain Email
 
-Scenario:
+### Scenario:
 Your security team received a suspicious email claiming to be from PayPal. The sender address is:
 `noreply@secure-paypai.com`
 
@@ -69,5 +69,5 @@ Now, please answer below question
 
 Question 1: What is the reputation of the domain?
 
-Submission
+## Submission
 Share the snapshot showing the reputation of teh domain
