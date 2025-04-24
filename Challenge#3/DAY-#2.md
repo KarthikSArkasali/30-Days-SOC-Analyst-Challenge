@@ -30,7 +30,7 @@ Your monitoring system flagged a suspicious file in /tmp. Upon inspection, it's 
 
        nano fakebackup.sh
 
-32. Paste the following content:
+3. Paste the following content:
  
         #!/bin/bash<br>
         echo "[*] Simulating backup operation..."<br>
@@ -47,6 +47,7 @@ Your monitoring system flagged a suspicious file in /tmp. Upon inspection, it's 
 ## Step-by-Step Investigation
 **1. Preparation**
 - Install curl, lsof, ps, and grep (usually pre-installed).
+  
 **2. Detection and Analysis**
 - Check running processes:
  
