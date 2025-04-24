@@ -75,11 +75,11 @@ An attacker has added a cron job that silently runs a malicious script from /tmp
 
       crontab -l | grep -v "malicious.sh" | crontab -
 
-Delete the script and its output:
+- Delete the script and its output:
 
      rm -f /tmp/malicious.sh /tmp/.cron.log
 
-Restart the cron service:
+- Restart the cron service:
 
      sudo systemctl restart cron
 
