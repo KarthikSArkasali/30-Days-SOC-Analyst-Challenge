@@ -9,7 +9,7 @@ The objective of this lab is to simulate an **SSH brute force attack** and demon
 - **Target Machine:** Ubuntu Linux Server
   
 ### Tools Needed
-- `hydra (on attacker machine)
+- `hydra` (on attacker machine)
 - `openssh-server` (on target machine)
 - `rsyslog` (default logging service)
 ### Log Files
