@@ -1,6 +1,6 @@
 # Day-5: Log Analysis Basics – Linux Auth Log
 
-## Objective
+## Objective: 
 The objective of this lab is to simulate an **SSH brute force attack** and demonstrate how to detect it using **Linux authentication logs**. Students will learn how to identify multiple failed login attempts and analyze patterns to uncover brute force activity.
 
 ## Lab Setup
@@ -54,23 +54,23 @@ A **brute force attack** attempts to guess a user’s SSH password by trying man
 
 On the Attacker Machine:
 
-         hydra -l root -P /usr/share/wordlists/rockyou.txt ssh://TARGET-IP
+    hydra -l root -P /usr/share/wordlists/rockyou.txt ssh://TARGET-IP
 
 This will attempt multiple password guesses for user root on the SSH port.
 
 Ensure SSH is enabled on the target:
 
-          sudo systemctl status ssh
+    sudo systemctl status ssh
 ### Step 2: Detection and Analysis – Analyze Auth Logs
 Check for failed login attempts:
 
-          sudo grep "Failed password" /var/log/auth.log
+    sudo grep "Failed password" /var/log/auth.log
 Find usernames tried:
 
-          sudo grep "Failed password" /var/log/auth.log | awk '{print $(NF-5)}' | sort | uniq -c | sort -nr
+    sudo grep "Failed password" /var/log/auth.log | awk '{print $(NF-5)}' | sort | uniq -c | sort -nr
 Watch live log activity:
 
-          sudo tail -f /var/log/auth.log
+    sudo tail -f /var/log/auth.log
 ## What to Look For
 - 20+ failed attempts from the same IP in under 5 mins
 - Attempts on sensitive users (root, admin)
