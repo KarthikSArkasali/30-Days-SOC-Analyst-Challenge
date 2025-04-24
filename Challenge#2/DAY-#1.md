@@ -27,12 +27,12 @@ Use these filters in Wireshark’s **Display Filter** bar:
 
 |Filter	|Description|
 |------|-------------|
-|tls|	Show all TLS traffic|
-|tcp.port == 443|	TLS over HTTPS|
-|tls.handshake.type == 1	|Client Hello messages|
-|tls.handshake.type == 2	|Server Hello messages|
-|tls.record.version == 0x0303	|TLS 1.2 traffic|
-|tls.record.version == 0x0304	|TLS 1.3 traffic|
+|`tls`|	Show all TLS traffic|
+|`tcp.port == 443`|	TLS over HTTPS|
+|`tls.handshake.type == 1`	|Client Hello messages|
+|`tls.handshake.type == 2`	|Server Hello messages|
+|`tls.record.version == 0x0303`	|TLS 1.2 traffic|
+|`tls.record.version == 0x0304`	|TLS 1.3 traffic|
 
 ## Conclusion
 
