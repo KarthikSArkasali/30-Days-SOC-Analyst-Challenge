@@ -8,7 +8,7 @@ The objective of this lab is to help students understand and analyze ICMP (Inter
 - Software: Wireshark (latest version)
 
 ## Files Needed
-- [Download Sample PCAP file]()
+- [Download Sample PCAP file](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/Protocol_Analysis_pcap.pcapng)
 
 ## ICMP Packet Structure and Fields
 ICMP is a Layer 3 protocol used for sending error messages and operational information. The most common ICMP messages include Echo Request (Type 8) and Echo Reply (Type 0).
