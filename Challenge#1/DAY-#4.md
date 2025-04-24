@@ -1,6 +1,6 @@
 # Day-4: Log Analysis Basics – Network-Based Attack Detection Using UFW
 
-## 🎯 Objective:
+## Objective:
 The objective of this lab is to simulate a network-based port scan attack and demonstrate how to detect it using ufw.log logs on a Linux system. Students will learn how to launch the HTTP scan prob from Kali Linux(attacker) machine and detect these scan ataempt on Victim machine using UFW.
 
 ## Lab Setup
@@ -53,31 +53,41 @@ A **port scan** is a technique used by attackers to probe a system for open port
 ## Lab Task: Explore and Analyze Linux Syslog for Network Scans
 
 ## Step 1: Attack Simulation – Perform a Port Scan
-Only scan systems you own or are authorized to test.
+ > *Only scan systems you own or are authorized to test*.
 
 ### On the Attacker Machine:
 
      nmap -p80 TARGET-IP
 
 ## Step 2: Detection and Analysis – Analyze Syslog
-Installing UFW firewall
-sudo apt install ufw
-sudo ufw enable
-sudo ufw logging on
-sudo ufw logging high
-Create a Firewall rule to drop HTTP traffic from Attack machine
-sudo ufw deny from 69.62.84.69 to any port 80 proto tcp
-Reload the firewall rules to take effect
-sudo ufw reload
-Detect the HTTP Scanning traffic
-sudo tail -f /var/log/ufw.log | grep "Attcker IP"
-✅ Conclusion
-ufw.log, combined with firewall logs, is powerful for detecting early-stage reconnaissance
-Port scanning is often the first indicator of an attacker mapping your system
-Detecting and blocking IPs performing scans is a crucial step in proactive defense
-📸 Submission
+
+1. Installing UFW firewall<br>
+      
+       sudo apt install ufw<br>
+       sudo ufw enable<br>
+       sudo ufw logging on<br>
+       sudo ufw logging high<br>
+
+2. Create a Firewall rule to drop HTTP traffic from Attack machine<br>
+     
+       sudo ufw deny from 69.62.84.69 to any port 80 proto tcp<br>
+
+3. Reload the firewall rules to take effect<br>
+      
+       sudo ufw reload<br>
+
+4. Detect the HTTP Scanning traffic<br>
+       
+       sudo tail -f /var/log/ufw.log | grep "Attcker IP"<br>
+ 
+## Conclusion
+- ufw.log, combined with firewall logs, is powerful for detecting early-stage reconnaissance
+- Port scanning is often the first indicator of an attacker mapping your system
+- Detecting and blocking IPs performing scans is a crucial step in proactive defense
+
+## Submission
 Submit a screenshot of a syslog entry showing blocked network traffic due to a port scan. Include:
 
-Source IP of scan
-Targeted port
-Timestamp
+- Source IP of scan
+- Targeted port
+- Timestamp
