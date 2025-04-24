@@ -67,6 +67,7 @@ Or Else you can sign out with your existing account and sign in with `haxuser1` 
 - **Understanding Windows Security Logs:** Windows Security Logs are essential for identifying suspicious behavior such as unauthorized login attempts, privilege escalation, and system configuration changes.
 - **SOC Analyst Role:** As a SOC Analyst, reviewing and analyzing these logs regularly is critical to detecting and responding to security incidents in real-time.
 - **Threat Detection:** By monitoring for multiple failed logins, account lockouts, and privilege escalations, SOC Analysts can quickly detect malicious activities on a network.
+
 ## Submission:
 - Event ID 4624 (Successful Login): Submit a screenshot showing a successful login event from the Security logs.
 - Event ID 4625 (Failed Login): Submit a screenshot showing a failed login attempt event from the Security logs.
