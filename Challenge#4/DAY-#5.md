@@ -4,7 +4,7 @@ To learn how to search and analyze authentication logs using Splunk to detect un
 
 ## Lab Setup
 - Ubuntu Server (22.04 or later)
-- [Download Linux Auth log sample]()
+- [Download Linux Auth log sample](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/Linux_UnAuthorized_Auditd_logs.json)
 
 ## Pre-requisite
 [Setting up Splunk Server on Ubuntu Server]()
