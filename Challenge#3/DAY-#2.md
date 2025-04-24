@@ -46,51 +46,52 @@ Your monitoring system flagged a suspicious file in /tmp. Upon inspection, it's 
 
 ## Step-by-Step Investigation
 1. Preparation
-   - Install curl, lsof, ps, and grep (usually pre-installed).
+- Install curl, lsof, ps, and grep (usually pre-installed).
 2. Detection and Analysis
-   - Check running processes:
+- Check running processes:
  
-        ps aux | grep fakebackup.sh
+      ps aux | grep fakebackup.sh
 
-  - Search for suspicious files:
+- Search for suspicious files:
 
-       find /tmp -name "*.sh"
+      find /tmp -name "*.sh"
 
 3. Containment, Eradication, and Recovery
 
-Kill any related processes:
-pkill curl
-Remove the malicious script:
-rm -f /tmp/payload.sh
-Clear the crontab if persistence was found:
-crontab -e
-Restart services if needed and log out inactive sessions.
+- Kill any related processes:
+
+       pkill curl
+
+- Remove the malicious script:
+
+      rm -f /tmp/payload.sh
+
+- Clear the crontab if persistence was found:
+
+      crontab -e
+
+- Restart services if needed and log out inactive sessions.
+
 4. Post-Incident Activity
-Document:
+##### Document:
 
-What triggered the alert?
+- What triggered the alert?
+- What was the script doing?
+- Which user executed it?
+- Recommendations:
+- Enable file integrity monitoring (e.g., AIDE).
+- Restrict /tmp execution using mount options (noexec).
+- Educate users about unknown script execution.
 
-What was the script doing?
+## Lab Checklist
+- Simulate Script Create and execute a suspicious bash script
+- Investigate Logs Use commands to analyze the event
+- Kill and Delete Contain and remove the malicious file
+- Document Findings Note IPs, users, and recommendations
 
-Which user executed it?
-
-Recommendations:
-
-Enable file integrity monitoring (e.g., AIDE).
-
-Restrict /tmp execution using mount options (noexec).
-
-Educate users about unknown script execution.
-
-Lab Checklist
-✅ Simulate Script Create and execute a suspicious bash script
-✅ Investigate Logs Use commands to analyze the event
-✅ Kill and Delete Contain and remove the malicious file
-✅ Document Findings Note IPs, users, and recommendations
-
-📸 Submission
+## Submission
 Submit screenshots of:
 
-The malicious script content
-Process list showing the script or curl
-Script deleted from /tmp
+- The malicious script content
+- Process list showing the script or curl
+- Script deleted from /tmp
