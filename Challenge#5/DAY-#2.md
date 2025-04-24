@@ -3,14 +3,15 @@
 The objective of this lab is to analyze a real-world phishing email sample using manual investigation techniques. Students will learn to review email headers, validate the sender's identity, check domain/IP reputation, and extract indicators of compromise (IOCs).
 
 ## Lab Setup
-📨 Download Email Sample (.eml)
-💻 Tools Recommended:
-MX Toolbox Email Header Analyzer(https://mxtoolbox.com/EmailHeaders.aspx)
-EML Analyzer(https://eml-analyzer.herokuapp.com/#/)
-IP reputation check (e.g., VirusTotal, AbuseIPDB, Cisco Talos)
-Whois lookup (e.g., whois.domaintools.com)
-URL and Domain analysis (e.g., urlscan.io, VirusTotal)
-🧪 Lab Task: Analyze the Suspicious Email
+- [Download Email Sample (.eml)]()
+- Tools Recommended:
+    - MX Toolbox Email Header Analyzer(https://mxtoolbox.com/EmailHeaders.aspx)
+    - EML Analyzer(https://eml-analyzer.herokuapp.com/#/)
+    - IP reputation check (e.g., VirusTotal, AbuseIPDB, Cisco Talos)
+    - Whois lookup (e.g., whois.domaintools.com)
+    - URL and Domain analysis (e.g., urlscan.io, VirusTotal)
+
+ ## Lab Task: Analyze the Suspicious Email
 📥 Scenario:
 You received an email from BANCO DO BRADESCO LIVELO claiming that your card has 92,990 points expiring today, sent from banco.bradesco@atendimento.com.br. The sender’s domain looks similar to Bradesco’s official domain.
 
