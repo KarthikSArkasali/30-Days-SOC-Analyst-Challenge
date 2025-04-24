@@ -19,7 +19,7 @@ While triaging a phishing alert, you discovered three suspicious indicators:
 - **File Hash(SHA256):** d45a079c59c2860f9cf4578a8fc9f5fe8009cff8aaa83c572474d6bfe15ba95b
 
 ## Lab Setup
-- **Download Email Sample:** sample-1.eml
+- **Download Email Sample:** [sample-1.eml](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/BRADESCO%20LIVELO.eml)
 - **Tools You Will Use:**
      - [VirusTotal](https://www.virustotal.com/gui/home/upload)
      - [AbuseIPDB](https://www.abuseipdb.com/)
