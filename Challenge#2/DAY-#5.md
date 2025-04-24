@@ -8,7 +8,7 @@ The objective of this lab is to help students analyze TLS (Transport Layer Secur
 - Operating System: Windows 10/11 (or Linux/macOS)
 - Software: Wireshark (latest version)
 ## Files Needed
-- [Download Sample PCAP file](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Challenge%232/Protocol_Analysis_pcap.pcapng)
+- [Download Sample PCAP file](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/Protocol_Analysis_pcap.pcapng)
 
 ## TLS Packet Structure and Fields
 TLS is a **cryptographic protocol** that provides secure communication over the internet. It runs over **TCP**, commonly on port **443**, and is used in HTTPS, FTPS, SMTPS, etc.
