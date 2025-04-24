@@ -6,6 +6,7 @@ Learn how to analyze a phishing email by examining headers, body, URLs, and atta
 **Phishing Analysis** is the investigation of suspicious emails to determine if they’re crafted to trick users into revealing sensitive information or executing malware. This involves analyzing metadata, links, files, and content for signs of deception or malicious behavior.
 
 ## Types of Phishing Attacks
+
 |Type	|Description|
 |------|-------------|
 |**Email Phishing**	|Generic emails pretending to be from trusted brands (e.g., Microsoft)|
@@ -17,6 +18,7 @@ Learn how to analyze a phishing email by examining headers, body, URLs, and atta
 |**Business Email** Compromise (BEC)	|Impersonating senior staff to trick finance/HR teams into transferring money or data|
 
 ## Phishing Techniques with Examples
+
 |Technique|	Example|
 |------|-------------|
 |**Display Name Spoofing**	|`From: Microsoft Support <helpdesk@micros0ft.com>`|
@@ -28,6 +30,7 @@ Learn how to analyze a phishing email by examining headers, body, URLs, and atta
 |**Attachment-Only Phishing**	|`.zip` or `.docx` file with a malicious payload but no email text|
 
 ## Common Tools Used in Phishing Analysis
+
 |Tool	|Purpose|
 |------|-------------|
 |**Email Header Analyzer**	|Decode sender metadata and trace origin|
@@ -38,7 +41,8 @@ Learn how to analyze a phishing email by examining headers, body, URLs, and atta
 |**Base64** |Decoder	Decode encoded payloads in email or script|
 |**Whois/IP Lookup**	|Check sender domain and IP reputation|
 
-🧪 Phishing Analysis Process
+## Phishing Analysis Process
+
 |Step	|Action|
 |------|-------------|
 |**1. Collect Email Sample**	|Export the email as `.eml` or `.msg` format.|
