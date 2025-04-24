@@ -5,7 +5,7 @@ Use Splunk to detect unusual user creation activity by filtering system logs and
 
 ## Lab Setup
 - Ubuntu Server (22.04 or later)
-- Download Linux Auth log sample
+- [Download Linux Auth log sample](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/Linux_UnAuthorized_Auditd_logs.json)
 
 ## Pre-requisite
 
