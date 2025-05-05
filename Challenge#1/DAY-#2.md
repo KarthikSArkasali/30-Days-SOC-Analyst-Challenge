@@ -38,9 +38,14 @@ Some common Event IDs in Windows Security Logs that you will encounter include:
 ### Step 1: Simulate a Failed Login Attempt
 
 1. Create a test user name "haxuser1" on Windows machine.
+
+![1](https://github.com/user-attachments/assets/716f6492-2fa9-43dc-a1ca-b73e38095c7b)
+
 2. Simulate a failed account access using this command Open PowerShell and enter an invalid username and password. You can do this by using the following command:<br>
 
        net use \\127.0.0.1\IPC$ /user:haxuser1 WrongPassword
+
+   ![2  ](https://github.com/user-attachments/assets/d572989c-91f8-4821-bc4e-a15a9792e19d)
 
 | Command Part | Explaination |
 | --- | --- |
@@ -70,8 +75,12 @@ Or Else you can sign out with your existing account and sign in with `haxuser1` 
 
 ## Submission:
 - Event ID 4624 (Successful Login): Submit a screenshot showing a successful login event from the Security logs.
+
+![4](https://github.com/user-attachments/assets/ee760eef-e77e-4342-8ecc-fd0ab81d3430)
+ 
 - Event ID 4625 (Failed Login): Submit a screenshot showing a failed login attempt event from the Security logs.
 
+![3](https://github.com/user-attachments/assets/7ae869c2-421d-4ef2-b4a3-7e4510e0c4fb)
 
 
 
