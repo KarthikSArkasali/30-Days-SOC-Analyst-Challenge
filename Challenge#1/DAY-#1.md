@@ -67,8 +67,13 @@ For this lab, you will need to set up log collection on both Windows and Linux s
 ## On Windows:
  1. Open **Group Policy Editor** (`gpedit.msc`):
 
-    - Navigate to `Computer Configuration > Administrative Templates > Windows Components > Windows PowerShell`.
-    - Ensure that **Module Logging**, **Script Block Logging**, and **Script Execution** are enabled.
+![1  ](https://github.com/user-attachments/assets/b4b267cd-c9fc-486f-8162-4c28806f1917)
+
+- Navigate to `Computer Configuration > Administrative Templates > Windows Components > Windows PowerShell`.
+- Ensure that **Module Logging**, **Script Block Logging**, and **Script Execution** are enabled.
+
+     ![2  ](https://github.com/user-attachments/assets/48b9de5e-7e75-47cb-96f2-847d365ea25a)
+
  2. Open **Event Viewer:**
 
      - Go to **Applications and Services Logs → Microsoft → Windows → PowerShell → Operational**.
@@ -76,6 +81,9 @@ For this lab, you will need to set up log collection on both Windows and Linux s
 To simulate a suspicious activity, open an elevated PowerShell session and run the following command:
 
     Get-LocalUser | Select-Object Name, Enabled
+
+![2 1](https://github.com/user-attachments/assets/018b03fd-c413-4f99-943d-7186aa24a257)
+
 This command lists all local user accounts on the system, which could be used by attackers to enumerate users post-exploitation.
 
 ## Step 2: Detect the Log in Windows Event Viewer
@@ -84,6 +92,8 @@ This command lists all local user accounts on the system, which could be used by
 3. Click **Filter Current Log**, and filter for **Event ID 4104** (which logs PowerShell script execution).
 4. Look for an entry that shows the execution of the **Get-LocalUser command**.
 5. Take a screenshot of the event details.
+
+   ![3](https://github.com/user-attachments/assets/746490a9-2c62-473b-8953-3be59f6ad4ad)
 
 ## Conclusion:
 - **Understanding Log Analysis:** Logs are crucial for detecting, investigating, and responding to security incidents. Through the use of Windows Event Viewer and Linux log files, you can 
