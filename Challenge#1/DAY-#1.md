@@ -93,7 +93,7 @@ This command lists all local user accounts on the system, which could be used by
 4. Look for an entry that shows the execution of the **Get-LocalUser command**.
 5. Take a screenshot of the event details.
 
-   ![3](https://github.com/user-attachments/assets/746490a9-2c62-473b-8953-3be59f6ad4ad)
+   ![3 1](https://github.com/user-attachments/assets/fa9aa5ea-0f66-41a5-a992-e286bee388b5)
 
 ## Conclusion:
 - **Understanding Log Analysis:** Logs are crucial for detecting, investigating, and responding to security incidents. Through the use of Windows Event Viewer and Linux log files, you can 
