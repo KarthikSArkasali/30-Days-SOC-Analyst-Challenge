@@ -17,6 +17,9 @@ Before proceeding, make sure PowerShell script block logging is enabled on your 
 1. Press `Win + R`, type `gpedit.msc`, and press Enter to open the Group Policy Editor.
 2. Navigate to: `Computer Configuration > Administrative Templates > Windows Components > Windows PowerShell`
 3. Turn on **Module Logging**, **Script Block Logging**, and **Script Execution**.
+
+![2  ](https://github.com/user-attachments/assets/e3253b5c-1191-4500-8abe-672fc7b24f28)
+
 4. Apply the settings and close the Group Policy Editor.
 
 ## What are Windows PowerShell Logs?
@@ -35,6 +38,9 @@ PowerShell logs contain information about PowerShell script executions, includin
 2. Run the following PowerShell command to generate a log entry:
 
        Start-Process "notepad.exe" -ArgumentList "C:\Windows\System32\drivers\etc\hosts"
+
+![3](https://github.com/user-attachments/assets/fe2090d0-15cd-413c-bf74-bf7fcf240819)
+
 This command
 
 - Starts a new process using the Start-Process cmdlet.
@@ -50,8 +56,13 @@ This command
 3. Take a screenshot of the event details, including:
 
 - PowerShell command that was executed
+
 - User who ran the command
 - Timestamp of the execution
+
+![4](https://github.com/user-attachments/assets/834b279d-0b80-4ca5-8d61-5f6b6bc3c9bd)
+
+![5](https://github.com/user-attachments/assets/3ad01f4b-54f0-44d5-95a6-0288fbf5b5f8)
 
 ## Step 3: Why Is This Important for Blue Teams?
 This log can be used to detect malicious PowerShell usage, such as:
