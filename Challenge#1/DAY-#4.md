@@ -59,6 +59,8 @@ A **port scan** is a technique used by attackers to probe a system for open port
 
      nmap -p80 TARGET-IP
 
+![1](https://github.com/user-attachments/assets/d93db2c1-25cc-46ad-b457-feba86034500)
+
 ## Step 2: Detection and Analysis – Analyze Syslog
 
 1. Installing UFW firewall<br>
@@ -79,7 +81,9 @@ A **port scan** is a technique used by attackers to probe a system for open port
 4. Detect the HTTP Scanning traffic<br>
        
        sudo tail -f /var/log/ufw.log | grep "Attcker IP"
- 
+
+![3](https://github.com/user-attachments/assets/685c1d04-405e-4c48-addf-44038a76d492)
+
 ## Conclusion
 - ufw.log, combined with firewall logs, is powerful for detecting early-stage reconnaissance
 - Port scanning is often the first indicator of an attacker mapping your system
