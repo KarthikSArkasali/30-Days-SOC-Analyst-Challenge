@@ -35,7 +35,7 @@ A **brute force attack** attempts to guess a user’s SSH password by trying man
 
 - Multiple failed password attempts from one IP
 - Repeated login attempts to root/admin accounts
-- Success after multiple failures (brute force success)
+- Success after multiple failures (**brute force success**)
 - Logins from unknown or foreign IPs
 
 ## What is Hydra?
