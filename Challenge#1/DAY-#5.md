@@ -56,6 +56,8 @@ On the Attacker Machine:
 
     hydra -l root -P /usr/share/wordlists/rockyou.txt ssh://TARGET-IP
 
+![1](https://github.com/user-attachments/assets/68ba15ec-7646-4660-a2f1-e01905dcd33d)
+
 This will attempt multiple password guesses for user root on the SSH port.
 
 Ensure SSH is enabled on the target:
@@ -65,9 +67,11 @@ Ensure SSH is enabled on the target:
 Check for failed login attempts:
 
     sudo grep "Failed password" /var/log/auth.log
+
 Find usernames tried:
 
     sudo grep "Failed password" /var/log/auth.log | awk '{print $(NF-5)}' | sort | uniq -c | sort -nr
+
 Watch live log activity:
 
     sudo tail -f /var/log/auth.log
@@ -85,5 +89,10 @@ Watch live log activity:
 Submit a screenshot showing:
 
  - failed login entries from the same IP
+
+![3  ](https://github.com/user-attachments/assets/aa2c7a3a-b379-4a5c-8ec1-55499d3bf77b)
+   
  - Username attempted
+   
+![4  ](https://github.com/user-attachments/assets/9199457c-3476-41aa-b5c2-ddf6b9ad0118)
 
