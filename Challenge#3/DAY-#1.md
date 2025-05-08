@@ -1,10 +1,10 @@
 # Day-#1: Introduction to Incident Response
 
 # Objective:
-The objective of this lab is to introduce students to the core concepts of incident response, familiarize them with the incident response lifecycle, and help them understand how basic threats on Windows systems are detected, analyzed, and responded to by SOC Analysts.
+The objective of this lab is to introduce students to the **core concepts of incident response**, familiarize them with the **incident response lifecycle**, and help them understand how basic threats on Windows systems are detected, analyzed, and responded to by SOC Analysts.
 
 ## What is Incident Response?
-**Incident Response (IR)** is the structured approach to handle and manage the aftermath of a security breach or cyberattack, also known as an incident. It includes steps to:
+**Incident Response (IR)** is the structured approach to handle and manage the aftermath of a **security breach or cyberattack**, also known as an incident. It includes steps to:
 
 - Detect the incident
 - Contain the damage
