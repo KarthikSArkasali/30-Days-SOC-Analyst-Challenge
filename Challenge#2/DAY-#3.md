@@ -44,11 +44,24 @@ The objective of this lab is to introduce students to analyzing TCP (Transmissio
 Submit a screenshot showing:
 
 - Show all TCP packets
+
+![1](https://github.com/user-attachments/assets/90555604-d419-42df-99eb-6de6ee3322a9)
+
 - Show SYN packets (start of connection)
+
+![2](https://github.com/user-attachments/assets/73601a06-83b1-4075-aeb6-9ec93a5a6a2a)
+
 - Show FIN packets (end of connection)
+
+![3](https://github.com/user-attachments/assets/138ee11b-10e1-48dc-9012-28f81ae5c13e)
+
 - TCP traffic to/from a specific host
 
+![4](https://github.com/user-attachments/assets/17652d8d-a0ed-45ab-8d00-a2ce3d6da01a)
 
+![5](https://github.com/user-attachments/assets/af2edca2-8c62-4978-8666-68a29f5bd235)
+
+![6](https://github.com/user-attachments/assets/4d731eb2-cd35-467a-a80c-285a92eec8c5)
 
 
 
