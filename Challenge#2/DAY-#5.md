@@ -50,6 +50,13 @@ Use these filters in Wireshark’s **Display Filter** bar:
 Submit a screenshot showing:
 
 - Show all TLS traffic
+
+![1](https://github.com/user-attachments/assets/00e51179-5766-4048-89d7-dc0bbcc09c00)
+
 - Show Client Hello messages
+
+![2](https://github.com/user-attachments/assets/5b37bbb6-5338-4ecb-867a-c463039af820)
+
 - Show TLS 1.2 traffic
 
+![4](https://github.com/user-attachments/assets/da3953a0-fb98-4d74-9546-7e3604897557)
