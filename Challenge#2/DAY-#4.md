@@ -42,5 +42,13 @@ Use these filters in Wireshark’s **Display Filter** bar:
 Submit a screenshot showing:
 
 - Show all HTTP traffic
+
+![1](https://github.com/user-attachments/assets/a92bfe60-9752-4f43-9818-dec296b8152d)
+
 - Show all GET requests
+
+![3](https://github.com/user-attachments/assets/73cc9e24-156f-4e7b-a1be-6c51754fadc1)
+
 - View requested resources
+
+![4](https://github.com/user-attachments/assets/a8d1ba56-7594-4d8b-9066-6ba02af69c17)
