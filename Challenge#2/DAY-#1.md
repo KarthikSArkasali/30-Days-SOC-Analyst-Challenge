@@ -27,9 +27,18 @@ The objective of this lab is to introduce students to Wireshark, a powerful pack
 Submit screenshots showing:
 
 - Create a New Profile Name "SOC Analyst" and share the snapshot
+
+![1](https://github.com/user-attachments/assets/dadd4ad9-347e-4e17-9130-21384f782a7f)
+
 - Create a display filter to capture ICMP traffic and share the snapshot
+
+![2  ](https://github.com/user-attachments/assets/a2a20a15-f3c7-4114-bd0a-3379fb8d8851)
+
+![3](https://github.com/user-attachments/assets/6a37c3d1-c073-4d7d-9a8a-53a986809302)
+
 - Create a capture filter to capture ICMP traffic and share the snapshot
 
+![4](https://github.com/user-attachments/assets/11afda25-63f6-4321-b133-f5601efff70d)
 
 
 
