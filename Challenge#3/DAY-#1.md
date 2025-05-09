@@ -55,15 +55,15 @@ The NIST Incident Response Lifecycle includes **4 main phases**:
 
 |Platform	|Incident Type|	Description|
 |------------|-----|-------|
-|GCP	IAM Key Misuse	|Leaked or exposed service account keys used from suspicious IPs or regions.|
-|GCP	Root/Owner Role Abuse	|Unusual activity from users with Owner/Editor roles, especially outside hours.|
-|GCP	Unusual Cloud Storage Access	|Public or unauthorized access to private Cloud Storage buckets.|
-|GCP	Cloud Audit Logs Disabled	|Cloud Audit Logs or Admin Activity logs are disabled to evade detection.|
-|GCP	Compute Engine Abuse for C2	|Compute Engine VMs used as command and control or data exfiltration nodes.|
-|GCP	API Abuse or Overuse	|Unexpected spikes in API usage, potentially indicating abuse or bot activity.|
-|GCP	Deployment of Unauthorized Services	|Unapproved services like Kubernetes clusters or App Engine apps deployed.|
-|GCP	Firewall Rule Changes	|Suspicious modifications to firewall rules exposing internal services.|
-|GCP	Identity Federation Misuse	|Abuse of external identity providers to gain unauthorized access.|
+|GCP |GCP	IAM Key Misuse	|Leaked or exposed service account keys used from suspicious IPs or regions.|
+|    |GCP	Root/Owner Role Abuse	|Unusual activity from users with Owner/Editor roles, especially outside hours.|
+|    |GCP	Unusual Cloud Storage Access	|Public or unauthorized access to private Cloud Storage buckets.|
+|    |GCP	Cloud Audit Logs Disabled	|Cloud Audit Logs or Admin Activity logs are disabled to evade detection.|
+|    |GCP	Compute Engine Abuse for C2	|Compute Engine VMs used as command and control or data exfiltration nodes.|
+|    |GCP	API Abuse or Overuse	|Unexpected spikes in API usage, potentially indicating abuse or bot activity.|
+|    |GCP	Deployment of Unauthorized Services	|Unapproved services like Kubernetes clusters or App Engine apps deployed.|
+|    |GCP	Firewall Rule Changes	|Suspicious modifications to firewall rules exposing internal services.|
+|    |GCP	Identity Federation Misuse	|Abuse of external identity providers to gain unauthorized access.|
 
 
 ### Common Types of Incidents on Network:
