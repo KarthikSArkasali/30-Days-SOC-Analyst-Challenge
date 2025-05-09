@@ -152,7 +152,7 @@ The NIST Incident Response Lifecycle includes **4 main phases**:
 6. Report Incident:
    - Create a brief report with findings and actions taken
 
-[https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/RDP%20Incident%20Report.pdf]
+Incident Response Report[https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/RDP%20Incident%20Report.pdf]
   
 ## Submission Requirements
 Submit the following:
