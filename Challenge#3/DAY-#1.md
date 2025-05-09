@@ -151,13 +151,21 @@ The NIST Incident Response Lifecycle includes **4 main phases**:
    - Export relevant Event Logs
 6. Report Incident:
    - Create a brief report with findings and actions taken
-
+  
 ## Submission Requirements
 Submit the following:
 
 - Screenshot of Hydra attack in Kali Linux
+
+![1](https://github.com/user-attachments/assets/c00ce689-063f-42fa-97a1-c0ccf9b30f0a)
+
 - Screenshot of Event Viewer showing multiple 4625 events
+
+![2](https://github.com/user-attachments/assets/cb2fc0f5-1038-49e2-a78c-72567148035d)
+
 - Firewall rule
+
+![3](https://github.com/user-attachments/assets/1461e0a2-f171-400a-a274-6097531ed782)
 
 ## Conclusion
 This lab demonstrated how to:
