@@ -149,6 +149,11 @@ The NIST Incident Response Lifecycle includes **4 main phases**:
 
 5. Collect Evidence:
    - Export relevant Event Logs
+      
+      - [RDP Brute Force Attack Evidence - Event Viewer logs](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/RDP-Attack.evtx)
+
+      - [RDP Brute Force Attack - Wireshark PCAP Evidence](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/RDP%20Bruteforce.pcapng)
+     
 6. Report Incident:
    - Create a brief report with findings and actions taken
 
