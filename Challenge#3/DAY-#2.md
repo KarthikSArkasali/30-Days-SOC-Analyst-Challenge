@@ -32,9 +32,9 @@ Your monitoring system flagged a suspicious file in /tmp. Upon inspection, it's 
 
 3. Paste the following content:
  
-        #!/bin/bash<br>
-        echo "[*] Simulating backup operation..."<br>
-        sleep 60<br>
+        #!/bin/bash
+        echo "[*] Simulating backup operation..."
+        sleep 60
 
 4. Make the script executable:
 
