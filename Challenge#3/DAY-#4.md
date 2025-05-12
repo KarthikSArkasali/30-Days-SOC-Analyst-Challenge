@@ -108,3 +108,7 @@ Submit screenshots showing:
      ![2](https://github.com/user-attachments/assets/26bec3a4-36f7-42fd-a24d-5f98f38e9f72)
 
    - Remove File Delete the generated log file
+
+    ![4](https://github.com/user-attachments/assets/46a22742-8008-45e1-bf98-841d1626ea93)
+
+    ![5](https://github.com/user-attachments/assets/42b7f295-1994-407d-9580-77f3c073cf59)
