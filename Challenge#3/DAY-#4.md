@@ -96,6 +96,15 @@ This command
 ## Submission
 Submit screenshots showing:
    - Enable Logging Ensure PowerShell operational logs are active
+
+     ![3](https://github.com/user-attachments/assets/b6bda9ea-33e0-42cc-9fb5-527810599c8c)
+
    - Simulate Suspicious Powershell Command
+
+     ![1](https://github.com/user-attachments/assets/64b042e5-ff19-427a-bf2c-721c062f322a)
+
    - Analyze Logs Investigate the command via Event ID 4103
+
+     ![2](https://github.com/user-attachments/assets/26bec3a4-36f7-42fd-a24d-5f98f38e9f72)
+
    - Remove File Delete the generated log file
