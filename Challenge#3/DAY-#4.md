@@ -72,7 +72,7 @@ This command
 
 2. **Containment:** Isolate the system: If you suspect malicious activity, you can block network connections: **Note:** Usually this is done from EDR tool.
 
-       New-NetFirewallRule -DisplayName "Block Network Access" -Direction Outbound -Action Block -Enable
+       New-NetFirewallRule -DisplayName "Block Network Access" -Direction Outbound -Action Block -Enabled True -Profile Any
 
 3. **Eradication:** Restore the Hosts File: If modifications to the hosts file were made without authorization, restore it from a backup:
 
