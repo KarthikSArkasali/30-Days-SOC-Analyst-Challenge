@@ -104,6 +104,17 @@ An attacker has added a cron job that silently runs a malicious script from /tmp
 Submit screenshots showing:
 
 - crontab -l output with the malicious job
+
+  ![2  ](https://github.com/user-attachments/assets/45f5ec38-0f5a-4e2b-8cde-1772e89c88c0)
+
 - Contents of the cron script /tmp/malicious.sh
+
+  ![1](https://github.com/user-attachments/assets/12d5786d-08a4-465c-b188-cc29bfe298dc)
+
 - Logs confirming the script execution
+
+  ![3](https://github.com/user-attachments/assets/a891985c-ce6f-4296-a157-d7a58994659e)
+
 - Cleaned cron job list and deletion confirmation
+
+  ![4](https://github.com/user-attachments/assets/555577c6-e96c-4a9e-8179-254697fbaf21)
