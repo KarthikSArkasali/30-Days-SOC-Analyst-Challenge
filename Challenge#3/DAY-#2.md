@@ -84,7 +84,7 @@ Your monitoring system flagged a suspicious file in /tmp. Upon inspection, it's 
   - Restrict /tmp execution using mount options (noexec).
   - Educate users about unknown script execution.
 
-- [Script Execution Monitoring -- Incident Report](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/C3%20D2%20Incident%20Report%20(Script%20Exec).pdf)
+- [Script Execution Monitoring - Incident Report](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/C3%20D2%20Incident%20Report%20(Script%20Exec).pdf)
 
 ## Lab Checklist
 - Simulate Script Create and execute a suspicious bash script
