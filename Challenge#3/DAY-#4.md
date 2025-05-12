@@ -70,11 +70,11 @@ This command
 1. Check the file and it content
    `C:\Windows\System32\drivers\etc\hosts`
 
-2. Containment: Isolate the system: If you suspect malicious activity, you can block network connections: Note: Usually this is doen from EDR tool.
+2. **Containment:** Isolate the system: If you suspect malicious activity, you can block network connections: **Note:** Usually this is done from EDR tool.
 
        New-NetFirewallRule -DisplayName "Block Network Access" -Direction Outbound -Action Block -Enable
 
-3. Eradication: Restore the Hosts File: If modifications to the hosts file were made without authorization, restore it from a backup:
+3. **Eradication:** Restore the Hosts File: If modifications to the hosts file were made without authorization, restore it from a backup:
 
        Copy-Item "C:\Backup\hosts" -Destination "C:\Windows\System32\drivers\etc\hosts" -Force
 
@@ -82,7 +82,7 @@ This command
 
        Remove-Item "C:\Path\To\SuspiciousFile.exe" -Force
 
-4. Recovery: Restore from Backup (if necessary): Restore the system to a clean state from backups:
+4. **Recovery:** Restore from Backup (if necessary): Restore the system to a clean state from backups:
 
        Restore-Computer -RestorePoint 1  # Restores to the first available restore point
 
