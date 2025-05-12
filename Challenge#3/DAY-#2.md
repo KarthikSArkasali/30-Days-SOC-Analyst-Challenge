@@ -94,5 +94,14 @@ Your monitoring system flagged a suspicious file in /tmp. Upon inspection, it's 
 Submit screenshots of:
 
 - The malicious script content
+
+![2](https://github.com/user-attachments/assets/760d1e79-27c7-4dc7-8c9d-20d4bbf4e5e5)
+
 - Process list showing the script or curl
+
+![3](https://github.com/user-attachments/assets/729f0591-9828-4c70-baf0-242e81fb853e)
+
 - Script deleted from /tmp
+
+![4](https://github.com/user-attachments/assets/d9395cb4-ef0e-4b32-9d14-b662b9e48f82)
+
