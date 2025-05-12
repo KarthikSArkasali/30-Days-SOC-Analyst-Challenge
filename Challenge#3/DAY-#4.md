@@ -1,4 +1,4 @@
-# Day-#4: Detecting Suspicious PowerShell Activity – Windows Incident Response Lab
+ # Day-#4: Detecting Suspicious PowerShell Activity – Windows Incident Response Lab
 
 ## Objective:
 The objective of this lab is to simulate and investigate a suspicious PowerShell command on a Windows system. Students will learn how to detect PowerShell-based threats using built-in logs, analyze activity using Event Viewer, and perform basic incident response actions.
@@ -109,6 +109,6 @@ Submit screenshots showing:
 
    - Remove File Delete the generated log file
 
-    ![4](https://github.com/user-attachments/assets/46a22742-8008-45e1-bf98-841d1626ea93)
+     ![4](https://github.com/user-attachments/assets/46a22742-8008-45e1-bf98-841d1626ea93)
 
-    ![5](https://github.com/user-attachments/assets/42b7f295-1994-407d-9580-77f3c073cf59)
+     ![5](https://github.com/user-attachments/assets/42b7f295-1994-407d-9580-77f3c073cf59)
