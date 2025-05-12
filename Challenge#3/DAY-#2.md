@@ -65,7 +65,7 @@ Your monitoring system flagged a suspicious file in /tmp. Upon inspection, it's 
 
 - Remove the malicious script:
 
-      rm -f /tmp/payload.sh
+      rm -f /tmp/fakebackup.sh
 
 - Clear the crontab if persistence was found:
 
