@@ -94,7 +94,7 @@ An attacker has added a cron job that silently runs a malicious script from /tmp
     - Enable cron integrity checks
     - Set up alerts for new cron entries (using auditd or inotify)
 
-[Unauthorized Cron Job Execution – Incident Report](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/Cronjob%20Incident%20Report.pdf)
+- [Unauthorized Cron Job Execution – Incident Report](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/Cronjob%20Incident%20Report.pdf)
 
 ## Lab Checklist
 - Simulate Cron Job Create a malicious script and schedule it via cron.
