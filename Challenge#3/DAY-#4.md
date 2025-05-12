@@ -80,7 +80,7 @@ This command
 
 - Remove Suspicious Files: If you find any suspicious files related to the incident, you can remove them:
 
-       Remove-Item "C:\Path\To\SuspiciousFile.exe" -Force
+      Remove-Item "C:\Path\To\SuspiciousFile.exe" -Force
 
 4. **Recovery:** Restore from Backup (if necessary): Restore the system to a clean state from backups:
 
