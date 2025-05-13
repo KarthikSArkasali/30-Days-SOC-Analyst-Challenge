@@ -74,4 +74,4 @@ Now, please answer below question
 Question 1: What is the reputation of the domain?
 
 ## Submission
-Share the snapshot showing the reputation of teh domain
+Share the snapshot showing the reputation of the domain
