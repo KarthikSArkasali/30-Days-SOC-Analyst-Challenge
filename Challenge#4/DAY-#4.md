@@ -11,7 +11,7 @@ In this lab, you will:
 - **Data Source:** JSON-formatted Zeek-style HTTP logs.
 - **Log File:** Download and upload to Splunk using the steps below.
 
-  - [Download HTTP Log file]()
+  - [Download HTTP Log file](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/Challenge-4/http_logs.json)
 
 # Steps to Upload HTTP Log into Splunk
 1. Go to Splunk `Web` → `Settings` > `Add Data`.
