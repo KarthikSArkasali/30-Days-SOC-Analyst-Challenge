@@ -9,7 +9,7 @@ Attackers often use hidden outbound connections to communicate with command-and-
 
 |Phase	|Description|
 |------|--------|
-|1. Preparation	|Ensure netstat, ss, and lsof are installed. Enable auditd/network logging.|
+|1. Preparation	|Ensure `netstat`, `ss`, and `lsof` are installed. Enable `auditd/network logging`.|
 |2. Detection and Analysis	|Identify unexpected remote connections and associated processes.|
 |3. Containment, Eradication, and Recovery	|Kill the process, investigate binary, block destination IP.|
 |4. Post-Incident Activity	|Document findings, improve firewall rules, configure monitoring tools.|
