@@ -55,6 +55,21 @@ Use the following SPL queries to complete each task:
 Submit a screenshot for each of the following:
 
 - Your query and result for Task 1.
+
+  ![1](https://github.com/user-attachments/assets/e9bc4c02-9999-4842-91e4-e27cc78bb141)
+
 - Your query and result for Task 2.
+
+  ![2](https://github.com/user-attachments/assets/95552aaf-cb61-4f4f-a5a5-07956200d793)
+
 - Your query and result for Task 3.
+
+  ![3](https://github.com/user-attachments/assets/1e014246-cc7b-4a4a-859c-620cea9770f0)
+
+  ![3 1](https://github.com/user-attachments/assets/c1a63dde-a15f-483f-9efe-21afe3b8fcc6)
+
 - Your query and result for Task 4.
+
+  ![4](https://github.com/user-attachments/assets/da637f9d-5861-4d4b-8a02-e9bb1e099ffa)
+
+ 
