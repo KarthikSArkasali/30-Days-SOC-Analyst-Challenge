@@ -92,5 +92,5 @@ Submit screenshots showing:
   ![4](https://github.com/user-attachments/assets/63304ecb-36cb-4ae8-9cde-529049bf1cd8)
 
 - Written summary of incident
-
- 
+  - [Network Traffic Capture](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/Incident%20eveidence%20capture.pcap)
+  - [Incident Response Report](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/Day%205%20Incident%20Response%20Report.pdf)
