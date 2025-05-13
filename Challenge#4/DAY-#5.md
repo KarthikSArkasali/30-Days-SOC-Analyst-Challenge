@@ -27,31 +27,31 @@ Use the following SPL queries to complete each task:
 
 ## Task 1: Find the Top 10 Client IPs (id.orig_h)
 
-  index=conn_lab sourcetype="json"
-  | stats count by id.orig_h
-  | sort -count
-  | head 10
+   index=conn_lab sourcetype="json"
+   | stats count by id.orig_h
+   | sort -count
+   | head 10
 
-✅Task 2: List Most Common Services
+## Task 2: List Most Common Services
 
-  index=conn_lab sourcetype="json"
-  | stats count by service
-  | sort -count
+   index=conn_lab sourcetype="json"
+   | stats count by service
+   | sort -count
 
-✅Task 3: Find Connections with Duration > 1 Second
+## Task 3: Find Connections with Duration > 1 Second
 
-  index=conn_lab sourcetype="json" duration>1
-  | table ts id.orig_h id.resp_h service duration
-  | sort -duration
+   index=conn_lab sourcetype="json" duration>1
+   | table ts id.orig_h id.resp_h service duration
+   | sort -duration
 
-✅Task 4: Identify the Most Accessed Internal Servers
+## Task 4: Identify the Most Accessed Internal Servers
 
-  index=conn_lab sourcetype="json"
-  | stats count by "id.resp_h"
-  | sort -count
-  | head 10
+   index=conn_lab sourcetype="json"
+   | stats count by "id.resp_h"
+   | sort -count
+   | head 10
 
-📸 Submission
+## Submission
 Submit a screenshot for each of the following:
 
 - Your query and result for Task 1.
