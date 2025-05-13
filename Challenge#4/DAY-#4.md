@@ -50,7 +50,20 @@ Use SPL queries to complete the following analysis:
 Submit a screenshot for each of the following:
 
 - Your query and result for Task 1.
+
+  ![1](https://github.com/user-attachments/assets/03a9193c-6847-42dd-960c-f220f0348022)
+
 - Your query and result for Task 2.
+
+  ![2](https://github.com/user-attachments/assets/5d2d2e33-f0e5-4add-8842-adc544f3f72b)
+
 - Your query and result for Task 3.
+
+  ![3](https://github.com/user-attachments/assets/ad23ae30-00f9-4e60-a9a1-43479d8619cc)
+
 - Your query and result for Task 4.
+
+ ![3 1](https://github.com/user-attachments/assets/9bcac422-4850-4389-9c99-04cacea09dd6)
+
+ ![3 2](https://github.com/user-attachments/assets/4e9d9a3d-2991-43c7-acd2-97c85b1969ac)
 
