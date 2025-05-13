@@ -71,7 +71,7 @@ Your security team received a suspicious email claiming to be from PayPal. The s
 
 Now, please answer below question
 
-Question 1: What is the reputation of the domain?
+## Question 1: What is the reputation of the domain?
 
 ![1](https://github.com/user-attachments/assets/e6be0be5-4256-4d2e-8850-4bebd0b8f8bc)
 
