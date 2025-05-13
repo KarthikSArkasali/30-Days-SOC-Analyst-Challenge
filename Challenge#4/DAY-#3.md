@@ -1,4 +1,4 @@
-# Day-#13: Splunk Basics – SSH Log Analysis
+# Day-#3: Splunk Basics – SSH Log Analysis
 ## Objective
 In this lab, you will:
 
