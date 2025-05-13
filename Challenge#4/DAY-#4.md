@@ -63,7 +63,7 @@ Submit a screenshot for each of the following:
 
 - Your query and result for Task 4.
 
- ![3 1](https://github.com/user-attachments/assets/9bcac422-4850-4389-9c99-04cacea09dd6)
+  ![3 1](https://github.com/user-attachments/assets/9bcac422-4850-4389-9c99-04cacea09dd6)
 
- ![3 2](https://github.com/user-attachments/assets/4e9d9a3d-2991-43c7-acd2-97c85b1969ac)
+  ![3 2](https://github.com/user-attachments/assets/4e9d9a3d-2991-43c7-acd2-97c85b1969ac)
 
