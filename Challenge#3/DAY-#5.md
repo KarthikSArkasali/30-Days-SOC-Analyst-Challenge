@@ -22,7 +22,7 @@ A Linux system shows an active connection to an unknown IP `45.13.220.98:443`, n
 
 - Ubuntu/Kali Linux system
 - Internet access
-- Tools: `curl`, `netstat` or ss, `lsof`
+- Tools: `curl`, `netstat` or `ss`, `lsof`
 
 ## Simulate Suspicious Connection
 
