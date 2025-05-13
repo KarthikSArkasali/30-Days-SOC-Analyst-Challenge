@@ -10,7 +10,8 @@ In this lab, you will:
 - **Splunk:** Already installed and accessible.
 - **Data Source:** JSON-formatted Zeek-style SSH logs.
 - **Log File:** Download and upload to Splunk using the steps below.
-- [Download SSH Log file](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/ssh_logs.json)
+
+[Download SSH Log file](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/ssh_logs.json)
 
 ## Steps to Upload SSH Log into Splunk
 1. Go to Splunk Web → **Settings** > **Add Data**.
