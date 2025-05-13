@@ -5,7 +5,7 @@ Learn to use Splunk to detect and investigate an SSH brute-force attack by analy
 
 ## Lab Setup
 - Ubuntu Server (22.04 or later)
-- [Download Linux Auth log sample]()
+- [Download Linux Auth log sample](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/Challenge-4/linux_auth_logs.json)
   
 ## Pre-requisite
 - [Setting up Splunk Server on Ubuntu Server]()
