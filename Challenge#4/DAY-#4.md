@@ -25,19 +25,26 @@ Use SPL queries to complete the following analysis:
 
 ✅ **Task 1: Find the top 10 endpoints generating web traffic**<br>
       
-    index=http_lab sourcetype="json" | stats count by "id.orig_h" | sort -count | head 10
+    index=http_lab sourcetype="json" 
+    | stats count by "id.orig_h" 
+    | sort -count 
+    | head 10
 
 ✅**Task 2: Count the number of server errors (5xx) observed**
       
-    index=http_lab sourcetype="json" status_code>=500 status_code<600 | stats count as server_errors
+    index=http_lab sourcetype="json" status_code>=500 status_code<600 
+    | stats count as server_errors
 
 ✅**Task 3: Identify User-Agents associated with possible scripted attacks**
    
-    index=http_lab sourcetype="json" user_agent IN ("sqlmap/1.5.1", "curl/7.68.0", "python-requests/2.25.1", "botnet-checker/1.0") | stats count by user_agent
+    index=http_lab sourcetype="json" user_agent IN ("sqlmap/1.5.1", "curl/7.68.0", "python-requests/2.25.1", "botnet-checker/1.0") 
+    | stats count by user_agent
 
 ✅**Task 4: Find large file transfers (greater than 500 KB)**
      
-    index=http_lab sourcetype="json" resp_body_len>500000 | table ts "id.orig_h" "id.resp_h" uri resp_body_len | sort -resp_body_len
+    index=http_lab sourcetype="json" resp_body_len>500000 
+    | table ts "id.orig_h" "id.resp_h" uri resp_body_len 
+    | sort -resp_body_len
 
 ## Submission
 Submit a screenshot for each of the following:
