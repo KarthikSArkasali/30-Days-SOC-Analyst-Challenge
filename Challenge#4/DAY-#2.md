@@ -12,7 +12,7 @@ In this lab, you will:
 - **Data Source:** JSON-formatted Zeek DNS logs.
 - **Log File:** Download the file below and place it in a directory accessible to Splunk for ingestion.
 
-- [Download sample dns file]()
+- [Download sample dns file](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/Challenge-4/dns_logs.json)
 
 ## Steps to Upload DNS Log into Splunk
 1. Go to Splunk Web → **Settings** > **Add Data**.
