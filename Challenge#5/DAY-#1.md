@@ -73,8 +73,8 @@ Now, please answer below question
 
 ## Question 1: What is the reputation of the domain?
 
-1. The domain secure-paypai.com has a poor reputation based on available data. 
-2. Two out of 94 security vendors (CRDF and Sophos) flagged it as malicious, with labels of "Malicious" and "Phishing."
+1. The domain **secure-paypai.com** has a poor reputation based on available data. 
+2. Two out of 94 security vendors **(CRDF and Sophos)** flagged it as malicious, with labels of **"Malicious" and "Phishing."**
 3. Its name, closely mimicking "PayPal" with a typo ("paypai"), suggests typosquatting, a common phishing tactic.
 4. Despite only 2 detections, low vendor flags can result from evasion techniques like obfuscation.
 5. The domain’s association with phishing, combined with its suspicious naming, indicates a high likelihood of malicious intent.
