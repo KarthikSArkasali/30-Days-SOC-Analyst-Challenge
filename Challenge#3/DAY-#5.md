@@ -65,7 +65,7 @@ Investigate:
 - What process initiated the connection?
 - Remote IP and port?
 - Binary path used?
-
+  
 **Recommendations:**
 
 - Implement egress filtering
@@ -76,7 +76,21 @@ Investigate:
 Submit screenshots showing:
 
 - Output of netstat or ss with suspicious connection
+
+  ![1](https://github.com/user-attachments/assets/1ef648dd-a84a-4f47-9cd3-60bdaa5c0697)
+
 - ps and lsof output with PID
+
+  ![2](https://github.com/user-attachments/assets/d4f2d4e4-8c3d-40d9-83e8-7cb971b8f805)
+
 - Process termination (kill or pkill)
+
+  ![3](https://github.com/user-attachments/assets/42fd4796-f3c2-4ab7-8429-c0f635ad5275)
+
 - IP block using UFW or iptables
+
+  ![4](https://github.com/user-attachments/assets/63304ecb-36cb-4ae8-9cde-529049bf1cd8)
+
 - Written summary of incident
+
+ 
