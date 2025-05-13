@@ -52,3 +52,5 @@ Submit a screenshot for each of the following:
   ![2](https://github.com/user-attachments/assets/f9bc0809-8a60-4c68-b07c-d95ea3132b0e)
 
 - Your query and result for Task 3.
+
+ ![3](https://github.com/user-attachments/assets/a3bcb16b-7d7a-4a08-9a75-fbe3c7ff3aaa)
