@@ -12,7 +12,7 @@ In this lab, you will:
 - Data Source: JSON-formatted Zeek-style connection logs.
 - Log File: Download and upload to Splunk using the steps below.
 
-  - [Download Zeek Conn Log File]()
+  - [Download Zeek Conn Log File](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/Challenge-4/zeek_conn_logs.json)
 
 # Steps to Upload Conn Log into Splunk
 
