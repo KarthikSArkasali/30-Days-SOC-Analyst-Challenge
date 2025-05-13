@@ -51,3 +51,5 @@ The objective of this task is to help students install and configure Splunk on a
 
 ## Submission
 - Share a screenshot of Splunk Web
+
+  ![1](https://github.com/user-attachments/assets/a46dd309-129f-4722-89dc-0d7de68e24b2)
