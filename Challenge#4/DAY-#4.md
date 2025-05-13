@@ -1,4 +1,4 @@
-# Day#19: Splunk Basics – HTTP Log Analysis
+# Day-#4: Splunk Basics – HTTP Log Analysis
 
 ## Objective
 In this lab, you will:
