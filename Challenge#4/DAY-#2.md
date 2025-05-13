@@ -45,5 +45,13 @@ Use SPL queries to answer the following:
 Submit a screenshot of each of the following:
 
 - Your SPL query and result for Task 1.
+
+  ![1](https://github.com/user-attachments/assets/683d8904-1c7f-4ae2-ab6b-1eb31cbef11e)
+
 - SPL query and result for Task 2.
+
+  ![2](https://github.com/user-attachments/assets/a3ff9d9b-0f67-42de-b423-4a0a9dd18b96)
+
 - SPL query and result for Task 3.
+
+  ![3](https://github.com/user-attachments/assets/158e19b5-84a0-46d2-a4e9-b3168167c08f)
