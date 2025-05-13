@@ -5,10 +5,10 @@ Learn to use Splunk to detect and investigate an SSH brute-force attack by analy
 
 ## Lab Setup
 - Ubuntu Server (22.04 or later)
-- Download Linux Auth log sample
+- [Download Linux Auth log sample]()
   
 ## Pre-requisite
-- Setting up Splunk Server on Ubuntu Server
+- [Setting up Splunk Server on Ubuntu Server]()
 
 ## Lab Task
 Submit the answers below along with screenshots from your Splunk queries.
@@ -19,5 +19,5 @@ Submit the answers below along with screenshots from your Splunk queries.
 
 - Question 3: How many times user “thor” failed to login?
 
-✅ Conclusion
+## Conclusion
 You used Splunk to spot repeated SSH login failures, identify attacker IPs, and understand how brute-force attacks appear in log data — a key SOC analyst skill.
