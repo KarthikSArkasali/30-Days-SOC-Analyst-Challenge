@@ -44,5 +44,11 @@ Use SPL queries to complete the following analysis:
 Submit a screenshot for each of the following:
 
 - Your query and result for Task 1.
+
+  ![1](https://github.com/user-attachments/assets/f9e4eac8-9f3f-4b9f-95d5-5b4a19caad01)
+
 - Your query and result for Task 2.
+
+  ![2](https://github.com/user-attachments/assets/f9bc0809-8a60-4c68-b07c-d95ea3132b0e)
+
 - Your query and result for Task 3.
