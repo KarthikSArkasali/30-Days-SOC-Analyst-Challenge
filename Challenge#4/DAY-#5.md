@@ -1,4 +1,4 @@
-Day#20: Splunk Basics – Zeek Connection Log Analysis
+# Day-#5: Splunk Basics – Zeek Connection Log Analysis
 🎯 Objective
 In this lab, you will:
 
