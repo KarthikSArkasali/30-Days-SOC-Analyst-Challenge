@@ -51,9 +51,19 @@ You will perform basic static malware analysis using a publicly known test malwa
 ## Submission Checklist
 - Submit the following screenshots:
     - VirusTotal scan result with detection tab
+
+      ![1](https://github.com/user-attachments/assets/92b83dad-f00b-4bd5-ad9b-e3789e15c650)
+
     - Sandbox result (Hybrid Analysis or Any.Run)
+
+      ![2](https://github.com/user-attachments/assets/09d11b8f-8d02-4eb2-934b-6c96247beda1)
+
     - CyberChef base64 decoding step
+ 
+      
     - Any other interesting output or IOC
+ 
+      ![4](https://github.com/user-attachments/assets/f59a8f74-0b33-4f84-bada-9c4f3e7be42d)
 
 ## Learning Outcome
 By completing this lab, you will:
