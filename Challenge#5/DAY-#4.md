@@ -40,13 +40,13 @@ You will perform basic static malware analysis using a publicly known test malwa
 > ⚠️ *We will use a safe EICAR test file – not harmful, but detected by AV tools*.
 
 ## Tools You’ll Use:
-- EICAR Test Malware Sample FIle
+- [EICAR Test Malware Sample FIle](https://secure.eicar.org/eicar.com.txt)
 - [VirusTotal](https://www.virustotal.com/gui/home/upload)
 - [Hybrid Analysis](https://www.hybrid-analysis.com/)
 - [Any.Run (Optional)](https://www.hybrid-analysis.com/)
 - [CyberChef](https://gchq.github.io/CyberChef/)
-- Intezer Analyze (Optional)
-Strings or Hex Viewer (e.g: [https://hexed.it](https://analyze.intezer.com/))
+- [Intezer Analyze (Optional)](https://analyze.intezer.com/)
+- Strings or Hex Viewer (e.g: [https://hexed.it](https://analyze.intezer.com/))
 
 ## Submission Checklist
 - Submit the following screenshots:
