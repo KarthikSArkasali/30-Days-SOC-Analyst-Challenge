@@ -42,7 +42,7 @@ You will perform basic static malware analysis using a publicly known test malwa
 ## Tools You’ll Use:
 - EICAR Test Malware Sample FIle
 - [VirusTotal](https://www.virustotal.com/gui/home/upload)
-- Hybrid Analysis
+- [Hybrid Analysis](https://www.hybrid-analysis.com/)
 - [Any.Run (Optional)](https://www.hybrid-analysis.com/)
 - [CyberChef](https://gchq.github.io/CyberChef/)
 - Intezer Analyze (Optional)
