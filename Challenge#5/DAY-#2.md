@@ -27,9 +27,26 @@ Investigate and answer the following:
 
 ## Submit the Following Screenshots:
 1. Screenshot of the email header with sender, Return-Path, and IP address highlighted.
+
+   ![1](https://github.com/user-attachments/assets/627d7bb9-89f6-420d-b1a0-9e1df537563d)
+
+   ![1 1](https://github.com/user-attachments/assets/3afa088d-f823-4963-8ab3-de798c58a25f)
+
 2. Screenshot of the IP reputation lookup result (AbuseIPDB or VirusTotal).
+
+    # AbuseIPDB
+     ![2](https://github.com/user-attachments/assets/79ebee95-d7c1-4709-87e6-557c9e77220e)
+
+    # VirusTotal
+    ![2 2](https://github.com/user-attachments/assets/18f674fe-1f00-4fc8-b4a2-bd98d2faa7a9)
+
 3. Screenshot of the suspicious link found in the email body.
+
+    ![3](https://github.com/user-attachments/assets/d44f6cd1-5053-4365-b635-01088dc0991d)
+
 4. Screenshot of the email content or HTML preview that shows urgency, branding, or spoofing.
+
+    ![4](https://github.com/user-attachments/assets/7baf0c8f-a589-4e99-bf5a-8a6c136612e8)
 
 ## Learning Outcome
 By the end of this lab, students should be able to:
