@@ -20,7 +20,7 @@ While triaging a phishing alert, you discovered three suspicious indicators:
 
 - **Domain:** aaronthompson.ug
 
-  ![2](https://github.com/user-attachments/assets/8a13d986-e0f5-4b97-b723-f40ab18f9953)
+  ![2 2](https://github.com/user-attachments/assets/fa1b9601-725b-4e67-9c31-4eabbcd501ba)
 
 - **File Hash(SHA256):** d45a079c59c2860f9cf4578a8fc9f5fe8009cff8aaa83c572474d6bfe15ba95b
 
