@@ -83,8 +83,15 @@ The objective of this task is to help students **set up a Wazuh Server using the
 
 ## Submission
 - Share a screenshot of the Wazuh dashboard showing the active agent.
+
+  ![1](https://github.com/user-attachments/assets/31829a48-ef02-4d15-9c8f-016c6312e461)
+
 - Share a screenshot of the Wazuh logs confirming successful agent onboarding.
+
+  ![2](https://github.com/user-attachments/assets/2918b0ed-88d4-4723-a5e8-986af9d4c706)
+
 - Write a short observation on how Wazuh helps in security monitoring.
+  **Wazuh** is a powerful tool that helps in security monitoring by collecting and analyzing logs from different systems. It alerts us about suspicious activities like unauthorized access, malware behavior, or system changes. As a beginner, I found Wazuh useful because it shows real-time security events and helps understand what is happening on a network. It also supports compliance and makes it easier to detect threats early.
 
 ## Conclusion
 - Successfully installed Wazuh Server using the Quick Start method.
