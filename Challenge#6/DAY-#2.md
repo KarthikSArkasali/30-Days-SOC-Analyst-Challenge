@@ -83,4 +83,5 @@ The objective of this task is to help students detect and investigate unauthoriz
   ![3](https://github.com/user-attachments/assets/76dad45b-95c1-471d-b46d-a49aa669280f)
 
 - Write a short observation on how Wazuh’s File Integrity Monitoring helps in security investigations.
-  As a beginner, I learned that Wazuh’s **File Integrity Monitoring (FIM)** helps keep track of important files and folders in a system. It can detect when a file is **created, changed, or deleted**. This is very helpful in a security investigation because it shows if someone tried to **modify or remove system files**, which could be a sign of an attack. FIM makes it easier to find out what happened and when, so we can respond quickly to any suspicious activity.
+
+  I learned that Wazuh’s **File Integrity Monitoring (FIM)** helps keep track of important files and folders in a system. It can detect when a file is **created, changed, or deleted**. This is very helpful in a security investigation because it shows if someone tried to **modify or remove system files**, which could be a sign of an attack. FIM makes it easier to find out what happened and when, so we can respond quickly to any suspicious activity.
