@@ -113,3 +113,7 @@ The main goal of digital forensics is to:
   ![2](https://github.com/user-attachments/assets/9da5e4b1-e74e-4d7d-85c5-45a6f7ac3f9e)
 
 - Write a short observation on how memory acquisition plays a crucial role in digital forensics investigations.
+
+  **Memory acquisition** is very important in digital forensics because it helps capture everything running on a computer at a specific time, like open 
+   programs,  network connections, passwords, or malware. This information is stored in RAM and gets lost when the computer is turned off. By collecting memory 
+   quickly,  investigators can find useful clues and understand what happened during a cyber incident.
