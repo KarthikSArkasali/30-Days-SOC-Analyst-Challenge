@@ -43,15 +43,15 @@ The objective of this task is to help students detect and investigate unauthoriz
 1. Open PowerShell (Run as Administrator) on the Windows machine.
 2. Create a test file in the monitored directory:
 
-         echo "Sensitive data" > C:\Users\Public\Documents\important.txt
+       echo "Sensitive data" > C:\Users\Public\Documents\important.txt
 
 3. Modify the file content to simulate unauthorized changes:
 
-         echo "Unauthorized modification detected" >> C:\Users\Public\Documents\important.txt
+       echo "Unauthorized modification detected" >> C:\Users\Public\Documents\important.txt
 
 4. Delete the file to simulate data tampering:
 
-         Remove-Item C:\Users\Public\Documents\important.txt -Force
+       Remove-Item C:\Users\Public\Documents\important.txt -Force
 
 **Step 2: Detect Unauthorized File Changes in Wazuh**
 
@@ -59,7 +59,7 @@ The objective of this task is to help students detect and investigate unauthoriz
 2. Navigate to Security Events → File Integrity Monitoring (FIM).
 3. Run the following search query in Wazuh to filter FIM logs:
 
-         rule.group:FIM AND data.win.eventdata.targetFilename:"C:\\Users\\Public\\Documents\\important.txt"
+       rule.group:FIM AND data.win.eventdata.targetFilename:"C:\\Users\\Public\\Documents\\important.txt"
 
 4. Look for logs indicating:
 
