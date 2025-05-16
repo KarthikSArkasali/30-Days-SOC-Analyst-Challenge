@@ -105,5 +105,11 @@ The main goal of digital forensics is to:
 
 ## Submission
 - Share a screenshot showing the successful memory dump creation.
+
+  ![1](https://github.com/user-attachments/assets/7c126cfe-5fbd-45a9-8416-3455e5450337)
+
 - Share a screenshot of the memory dump transfer to the forensic machine.
+
+  ![2](https://github.com/user-attachments/assets/9da5e4b1-e74e-4d7d-85c5-45a6f7ac3f9e)
+
 - Write a short observation on how memory acquisition plays a crucial role in digital forensics investigations.
