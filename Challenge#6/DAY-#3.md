@@ -74,7 +74,7 @@ The objective of this task is to help students detect SSH brute-force attacks on
 
   ![2](https://github.com/user-attachments/assets/0008d74b-60f3-47ab-9711-71a5890e19c6)
 
-- Write a short observation on how SSH brute-force detection helps in security monitoring and threat prevention. sql Copy Edit
+- Write a short observation on how SSH brute-force detection helps in security monitoring and threat prevention.
 
   **SSH brute-force** detection helps in security monitoring by identifying repeated failed login attempts to a server. These attempts are often made by 
   attackers trying to guess a user's password. Detecting such activity early allows security teams to block the attacker's IP address, apply rate-limiting, or 
