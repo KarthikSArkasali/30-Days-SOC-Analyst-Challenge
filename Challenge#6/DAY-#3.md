@@ -67,5 +67,15 @@ The objective of this task is to help students detect SSH brute-force attacks on
 
 ## Submission
 - Share a screenshot of the Wazuh dashboard showing SSH brute-force detection alerts.
+
+  ![1](https://github.com/user-attachments/assets/a1bab583-38d1-4b59-8c04-830ee5c8dabe)
+
 - Share a screenshot of logs confirming multiple failed SSH attempts.
+
+  ![2](https://github.com/user-attachments/assets/0008d74b-60f3-47ab-9711-71a5890e19c6)
+
 - Write a short observation on how SSH brute-force detection helps in security monitoring and threat prevention. sql Copy Edit
+
+  **SSH brute-force** detection helps in security monitoring by identifying repeated failed login attempts to a server. These attempts are often made by 
+  attackers trying to guess a user's password. Detecting such activity early allows security teams to block the attacker's IP address, apply rate-limiting, or 
+  enforce stronger authentication. This helps prevent unauthorized access and protects the system from potential compromise.
