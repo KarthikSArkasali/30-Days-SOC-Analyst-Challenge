@@ -90,7 +90,12 @@ Step 3: View Alerts in Wazuh Dashboard
 Submit screenshots of:
 
 - Suricata service running
+
+  ![1](https://github.com/user-attachments/assets/e5d7b00b-5a79-4d51-86b4-80d7f5035f75)
+
 - Alert in Wazuh Dashboard
+
+  ![2](https://github.com/user-attachments/assets/f3aa1bea-fa8b-472d-b3ec-45bcef2ecec0)
 
 ## Learning Outcome
 By completing this lab, you will:
