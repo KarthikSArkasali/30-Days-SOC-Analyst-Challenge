@@ -43,64 +43,51 @@ Suricata is an open-source, high-performance network IDS, IPS, and network monit
 
 ## Task: Detecting Port Scanning using Suricata + Wazuh
 
-**Step 1: Setting up Wazuh Agent with Suricata**
-1. **Install Wazuh agent** on Ubuntu:
-
-       curl -s https://packages.wazuh.com/key/GPG-KEY-WAZUH | sudo apt-key add -
-       echo "deb https://packages.wazuh.com/4.x/apt stable main" | sudo tee /etc/apt/sources.list.d/wazuh.list
-       sudo apt update && sudo apt install wazuh-agent
-
-2. Configure the agent:
-    - Edit: `/var/ossec/etc/ossec.conf`
-    - Set `<address>wazuh-manager-ip</address>`
-
-3. Start agent:
-
-       sudo systemctl enable wazuh-agent
-       sudo systemctl start wazuh-agent
-
-**Step 2: Installing Suricata and Rules**
+**Step 1: Installing Suricata and Rules**
 1. Install Suricata:
 
-       sudo apt install suricata -y
+       sudo add-apt-repository ppa:oisf/suricata-stable
+       sudo apt-get update
+       sudo apt-get install suricata -y
 
-2. Enable EVE JSON output:
+2. Download and extract the Emerging Threats Suricata ruleset:
 
-    - Edit /etc/suricata/suricata.yaml:
+       cd /tmp/ && curl -LO https://rules.emergingthreats.net/open/suricata-6.0.8/emerging.rules.tar.gz
+       sudo tar -xvzf emerging.rules.tar.gz && sudo mkdir /etc/suricata/rules && sudo mv rules/*.rules /etc/suricata/rules/
+       sudo chmod 640 /etc/suricata/rules/*.rules
 
-          outputs:
-             - eve-log:
-                 enabled: yes
-                 filetype: regular
-                 filename: /var/log/suricata/eve.json
 
-3. Update and install rules:
+3. Restart the Suricata service:
 
-        sudo suricata-update
+       sudo systemctl restart suricata
 
-4. Start Suricata:
+4. Add the following configuration to the /var/ossec/etc/ossec.conf file of the Wazuh agent. This allows the Wazuh agent to read the Suricata logs file:
 
-        sudo systemctl enable suricata
-        sudo systemctl start suricata
+       <ossec_config>
+         <localfile>
+          <log_format>json</log_format>
+          <location>/var/log/suricata/eve.json</location>
+        </localfile>
+       </ossec_config>
 
-**Step 3: Simulate Attack using Kali Linux**
-- On Kali Linux terminal, run a SYN scan:
+Step 2: Simulate Attack using Kali Linux
+On Kali Linux terminal, run a SYN scan:
 
-        nmap -sS -T4 <target-ip>
+    nmap -sS -T4 <target-ip>
 
-`-sS`: SYN scan<br>
-`-T4`: Faster scan timing
+- `-sS`: SYN scan
+- `-T4`: Faster scan timing
 
-- This scan should trigger Suricata detection rules for port scanning.
+This scan should trigger Suricata detection rules for port scanning.
 
-**Step 4: View Alerts in Wazuh Dashboard**
-- `Login to Wazuh Dashboard`.
-- `Navigate to Security Events → Choose agent`.
-- `Filter by Rule Group: Suricata`
+Step 3: View Alerts in Wazuh Dashboard
+- Login to `Wazuh Dashboard`.
+- Navigate to `Security Events` → `Choose agent`.
+- Filter by Rule Group: `Suricata`
+- Look for alert like: **ET SCAN Nmap Synchronous Scan**
 
-- Look for alert like:
-     - ET SCAN Nmap Synchronous Scan
-## Submission Submit screenshots of:
+## Submission
+Submit screenshots of:
 
 - Suricata service running
 - Alert in Wazuh Dashboard
