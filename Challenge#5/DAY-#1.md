@@ -1,6 +1,6 @@
 # Day-#1- Phishing Analysis: Investigating a Suspicious Email
 ## Lab Objective:
-Learn how to analyze a phishing email by examining headers, body, URLs, and attachments. Understand different phishing types and techniques, and how to use open-source tools to investigate and extract Indicators of Compromise (IOCs).
+I learned how to analyze a phishing email by examining its headers, body, URLs, and attachments. I gained an understanding of different phishing types and techniques, and used open-source tools to investigate and extract Indicators of Compromise (IOCs).
 
 ## What is Phishing Analysis?
 **Phishing Analysis** is the investigation of suspicious emails to determine if they’re crafted to trick users into revealing sensitive information or executing malware. This involves analyzing metadata, links, files, and content for signs of deception or malicious behavior.
