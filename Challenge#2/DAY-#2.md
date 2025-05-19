@@ -1,6 +1,6 @@
 # Day-2: Wireshark Basics – ICMP Protocol Analysis
 ## Objective:
-The objective of this lab is to help students understand and analyze ICMP (Internet Control Message Protocol) packets using Wireshark. Students will learn to identify echo requests/replies, interpret ICMP packet fields, and apply relevant filters for investigation.
+The objective of this lab was to understand and analyze ICMP (Internet Control Message Protocol) packets using Wireshark. I identified echo requests and replies, interpreted ICMP packet fields, and applied relevant filters to investigate network activity.
 
 ## Lab Setup
 ### System Requirements
