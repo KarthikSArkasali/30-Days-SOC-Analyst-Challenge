@@ -1,6 +1,6 @@
 # Day-#3- Threat Intelligence Basics
 ## Lab Objective:
-The objective of this lab is to help SOC Analysts learn how to extract Indicators of Compromise (IOCs) from a suspicious email and use threat intelligence tools to investigate their context and maliciousness.
+The objective of this lab was to help SOC Analysts extract Indicators of Compromise (IOCs) from a suspicious email and use threat intelligence tools to investigate their context and assess their maliciousness.
 
 ## What is Threat Intelligence?
 **Threat Intelligence (TI)** is information about threats, threat actors, and their tactics. It helps SOC analysts investigate alerts faster, make informed decisions, and respond to incidents more effectively.
