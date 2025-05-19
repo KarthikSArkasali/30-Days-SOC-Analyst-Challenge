@@ -1,6 +1,6 @@
 # Day-#5- Splunk Basics: Investigating Unauthorized Access
 ## Objective:
-To learn how to search and analyze authentication logs using Splunk to detect unauthorized access attempts, extract meaningful insights from fields like user, src_ip, and status, and identify suspicious login behaviors that may indicate compromise.
+I learned how to search and analyze authentication logs using Splunk to detect unauthorized access attempts. I extracted meaningful insights from fields such as user, src_ip, and status, and identified suspicious login behaviors that could indicate potential compromise.
 
 ## Lab Setup
 - Ubuntu Server (22.04 or later)
