@@ -1,7 +1,7 @@
 # Day-#4- Splunk Basics: Investigating Unusual User Creation
 
 ## Objective:
-Use Splunk to detect unusual user creation activity by filtering system logs and identifying unauthorized or suspicious accounts
+I used Splunk to detect unusual user creation activity by filtering system logs and identifying unauthorized or suspicious accounts.
 
 ## Lab Setup
 - Ubuntu Server (22.04 or later)
