@@ -1,7 +1,6 @@
 # Day-#4: Wireshark Basics – HTTP Protocol Analysis
 # Objective
-The objective of this lab is to help students analyze HTTP (Hypertext Transfer Protocol) packets using Wireshark. Students will explore HTTP request/response headers, understand how web communication works, and learn how to detect common HTTP-based attacks or data leaks.
-
+The objective of this lab was to analyze HTTP (Hypertext Transfer Protocol) packets using Wireshark. I explored HTTP request and response headers, gained an understanding of how web communication works, and learned how to detect common HTTP-based attacks and potential data leaks.
 ## Lab Setup
 ### System Requirements
 - Operating System: Windows 10/11 (or Linux/macOS)
