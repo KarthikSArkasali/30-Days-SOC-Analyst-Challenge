@@ -1,7 +1,7 @@
 # Day#18- Splunk Basics: Investigating SSH Brute Force attack
 
 ## Objective
-Learn to use Splunk to detect and investigate an SSH brute-force attack by analyzing failed login logs and identifying suspicious IPs using basic SPL queries.
+I learned to use Splunk to detect and investigate an SSH brute-force attack by analyzing failed login logs and identifying suspicious IP addresses using basic SPL queries.
 
 ## Lab Setup
 - Ubuntu Server (22.04 or later)
