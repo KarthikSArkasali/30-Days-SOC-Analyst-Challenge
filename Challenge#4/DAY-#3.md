@@ -1,10 +1,10 @@
 # Day-#3: Splunk Basics – SSH Log Analysis
 ## Objective
-In this lab, you will:
+In this lab, I:
 
-- Learn how to ingest and analyze SSH logs using Splunk.
-- Detect failed and successful SSH authentication attempts.
-- Identify unusual SSH activity that may indicate brute force or unauthorized access.
+- Learned how to ingest and analyze SSH logs using Splunk.
+- Detected both failed and successful SSH authentication attempts.
+- Identified unusual SSH activity that could indicate brute force attacks or unauthorized access.
 
 ## Lab Setup
 - **Splunk:** Already installed and accessible.
