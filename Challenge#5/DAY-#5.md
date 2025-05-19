@@ -1,7 +1,7 @@
 # Day-#5: Introduction to Digital Forensics
 
 ## Objective:
-The objective of this task is to help students acquire a Linux memory dump using KVML for forensic analysis. By completing this task, students will learn how to capture live memory from an Ubuntu machine and transfer it to another system for further forensic investigation.
+The objective of this task was to acquire a Linux memory dump using KVML for forensic analysis. I captured live memory from an Ubuntu machine and transferred it to another system for further forensic investigation.
 
 ## What is Digital Forensics?
 **Digital Forensics** is the science of identifying, preserving, analyzing, and presenting digital evidence in a legally acceptable manner. It involves recovering and examining data from digital devices like computers, servers, networks, and mobile devices — especially after a security breach or criminal incident.
