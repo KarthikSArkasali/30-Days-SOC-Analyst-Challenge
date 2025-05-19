@@ -1,6 +1,6 @@
 # Day-#5- EDR Basics: Vulnerability Detection using Wazuh
 ## Objective:
-To detect system vulnerabilities using Wazuh’s built-in vulnerability detection module and understand how a SOC Analyst can identify and mitigate vulnerabilities using alert data.
+I detected system vulnerabilities using Wazuh’s built-in vulnerability detection module and learned how a SOC Analyst can identify and mitigate vulnerabilities by analyzing alert data.
 
 ## What is a Vulnerability?
 A vulnerability is a weakness or flaw in software, hardware, or system configuration that could be exploited by attackers to gain unauthorized access or perform malicious actions.
