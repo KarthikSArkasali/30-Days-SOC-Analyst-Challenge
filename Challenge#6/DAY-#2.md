@@ -1,6 +1,6 @@
 # Day-#2: EDR Basics: FIM using Wazuh
 ## Objective
-The objective of this task is to help students detect and investigate unauthorized file changes on a Windows machine using Wazuh File Integrity Monitoring (FIM). Students will learn how to monitor sensitive files for unauthorized modifications, simulate an attack by modifying a file, and analyze alerts in Wazuh.
+The objective of this task was to detect and investigate unauthorized file changes on a Windows machine using Wazuh File Integrity Monitoring (FIM). I monitored sensitive files for unauthorized modifications, simulated an attack by modifying a file, and analyzed the resulting alerts in Wazuh.
 
 ## Preparation: Configure Wazuh Agent on Windows Target Machine
 ### Requirements
