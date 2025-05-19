@@ -1,6 +1,6 @@
 # Day-#3: Detecting and Removing Malicious Cron Jobs – Linux Incident Response Lab
 # Objective:
-The objective of this lab is to investigate and respond to a malicious cron job used by an attacker to maintain persistence on a Linux system. Students will simulate the attack, detect the malicious scheduled task, analyze the script, and remove the threat — applying the full incident response lifecycle.
+The objective of this lab was to investigate and respond to a malicious cron job used by an attacker to maintain persistence on a Linux system. I simulated the attack, detected the malicious scheduled task, analyzed the script, and removed the threat by applying the full incident response lifecycle.
 
 ## What is a Cron Job?
 A **cron job** is a scheduled task that runs automatically at defined intervals on Unix/Linux systems. Attackers often use cron to re-execute payloads, reconnect to command-and-control servers, or maintain access to a compromised system.
