@@ -1,6 +1,6 @@
 # Day-#5: Incident Response Basics – Suspicious Network Connection
-## Objective
-Investigate and respond to a suspicious outbound network connection from a Linux machine. This simulates beaconing behavior or data exfiltration. Students will learn to inspect open connections, trace source processes, and mitigate threats.
+## Objective:
+The objective of this lab was to investigate and respond to a suspicious outbound network connection from a Linux machine, simulating beaconing behavior or data exfiltration. I inspected open connections, traced source processes, and mitigated the identified threats.
 
 ## Why It Matters
 Attackers often use hidden outbound connections to communicate with command-and-control (C2) servers. Detecting and cutting off these connections is essential for SOC and IR teams.
