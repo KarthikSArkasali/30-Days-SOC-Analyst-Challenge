@@ -1,6 +1,6 @@
 # Day-1: Introduction to Wireshark – Packet Analysis for SOC Analysts
 ## Objective:
-The objective of this lab is to introduce students to Wireshark, a powerful packet analysis tool used by SOC analysts to investigate network traffic. Students will learn the interface, how to capture packets, apply filters, and identify suspicious communication patterns.
+The objective of this lab was to analyze TLS (Transport Layer Security) traffic using Wireshark. I explored how TLS secures data over the network, examined the TLS handshake messages, and identified metadata such as server names and certificate details.
 
 ## Lab Setup
 ### System Requirements
