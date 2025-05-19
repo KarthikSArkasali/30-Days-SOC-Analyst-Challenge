@@ -1,6 +1,6 @@
 ## Day-#3: Wireshark Basics – TCP Protocol Analysis
 ## Objective:
-The objective of this lab is to introduce students to analyzing TCP (Transmission Control Protocol) traffic using Wireshark. Students will learn how TCP establishes connections, the 3-way handshake process, and how to interpret common TCP fields and flags.
+The objective of this lab was to analyze TCP (Transmission Control Protocol) traffic using Wireshark. I learned how TCP establishes connections through the 3-way handshake process and how to interpret common TCP fields and flags for network analysis.
 
 ## Lab Setup
 ### System Requirements
