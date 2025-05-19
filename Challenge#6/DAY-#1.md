@@ -1,6 +1,6 @@
 # Day-#1- Setting up Wazuh
 ## Objective
-The objective of this task is to help students **set up a Wazuh Server using the Quick Start method and onboard an Ubuntu machine as an agent**. By completing this task, students will learn how to deploy **Wazuh for security monitoring, log analysis, and threat detection**.
+The objective of this task was to set up a Wazuh Server using the Quick Start method and onboard an Ubuntu machine as an agent. I successfully deployed Wazuh for security monitoring, log analysis, and threat detection.
 
 ## Introduction to EDR (Endpoint Detection and Response)
 **EDR** refers to tools that monitor, record, and analyze activities on endpoints (servers, desktops, laptops) to detect malicious behavior, help in incident response, and enable threat hunting.
