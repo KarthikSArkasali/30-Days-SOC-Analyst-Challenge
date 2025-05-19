@@ -1,6 +1,6 @@
 # Day-#4: EDR Basics - Detecting Suspicious Network Traffic using Suricata
 ## Objective:
-To understand how an Endpoint Detection and Response (EDR) solution can detect suspicious network traffic using Suricata IDS and visualize alerts on Wazuh.
+I understood how an Endpoint Detection and Response (EDR) solution detects suspicious network traffic using Suricata IDS and how to visualize alerts on Wazuh.
 
 ## What is Suspicious Network Traffic?
 Suspicious network traffic refers to abnormal or unexpected activities on a network that may indicate malicious intent or an ongoing attack.
