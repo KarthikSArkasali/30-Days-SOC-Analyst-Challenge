@@ -1,7 +1,7 @@
 # Day-#5: Wireshark Basics – TLS Protocol Analysis
 
 # Objective:
-The objective of this lab is to help students analyze TLS (Transport Layer Security) traffic using Wireshark. Students will explore how TLS secures data over the network, understand handshake messages, and identify metadata like server names and certificate details.
+The objective of this lab was to analyze TLS (Transport Layer Security) traffic using Wireshark. I explored how TLS secures data over the network, understood the TLS handshake process, and identified metadata such as server names and certificate details.
 
 # Lab Setup
 ## System Requirements
