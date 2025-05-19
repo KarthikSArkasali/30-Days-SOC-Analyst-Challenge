@@ -1,7 +1,7 @@
 # Day-1: Introduction to Log Analysis
 
 ## Objective:
-The goal of this lab was to gain hands-on experience with the fundamentals of log analysis. In this project, I demonstrated how logs from both Windows and Linux systems can be generated, collected, and analyzed for security monitoring. I successfully explored how SOC analysts utilize logs to detect and respond to security incidents, building a strong foundation in threat detection and incident analysis..<br>
+The objective of this lab was to understand the basics of log analysis and demonstrate how logs from different systems can be collected, analyzed, and used for security monitoring. I learned how to generate logs on both Windows and Linux systems and how SOC Analysts use these logs to detect and investigate security incidents.<br>
 
 ## What is a Log?
 
