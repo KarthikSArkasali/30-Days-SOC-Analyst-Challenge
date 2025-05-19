@@ -2,7 +2,7 @@
 
 ## Objective:
 
-The objective of this lab is to introduce students to Windows Security Logs and help them understand how to analyze logs for security-related events. Students will learn how to explore and analyze various security logs such as login attempts, user account changes, and other critical system events that could indicate potential security threats.
+The objective of this lab was to gain an understanding of Windows Security Logs and how to analyze them for security-related events. I explored and analyzed various logs, including login attempts, user account changes, and other critical system events that could indicate potential security threats.
 
 ## Lab Setup
 
