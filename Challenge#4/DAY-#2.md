@@ -2,10 +2,7 @@
 ## Lab Title: Splunk Basics – DNS Log Analysis
 ## Objective
 In this lab, you will:
-
-- Learn how to ingest and analyze DNS logs in Splunk.
-- Understand how to extract useful information such as DNS query types, source hosts, and common destinations.
-- Practice building basic SPL (Search Processing Language) queries to investigate DNS activity.
+I learned how to ingest and analyze DNS logs in Splunk. I understood how to extract useful information such as DNS query types, source hosts, and common destinations. Additionally, I practiced building basic SPL (Search Processing Language) queries to investigate DNS activity.
 
 ## Lab Setup
 - **Splunk:** Already installed and accessible.
