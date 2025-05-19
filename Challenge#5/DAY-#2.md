@@ -1,6 +1,6 @@
 # Day-#2- Phishing Analysis: Investigating a Suspicious Lookalike Email
 ## Lab Objective:
-The objective of this lab is to analyze a real-world phishing email sample using manual investigation techniques. Students will learn to review email headers, validate the sender's identity, check domain/IP reputation, and extract indicators of compromise (IOCs).
+The objective of this lab was to analyze a real-world phishing email sample using manual investigation techniques. I reviewed email headers, validated the sender’s identity, checked domain and IP reputations, and extracted indicators of compromise (IOCs).
 
 ## Lab Setup
 - [Download Email Sample (.eml)](https://github.com/KarthikSArkasali/30-Days-SOC-Challenge/blob/main/Files/BRADESCO%20LIVELO.eml)
