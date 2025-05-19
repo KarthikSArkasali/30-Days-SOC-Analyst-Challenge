@@ -1,7 +1,7 @@
 # Day#3: Log Analysis Basics: Windows PowerShell Logs
 
 ## Objective: 
-The objective of this lab is to introduce students to Windows PowerShell Logs and help them understand how to analyze PowerShell-related events. Students will learn how to explore and analyze PowerShell logs to detect suspicious or malicious PowerShell commands that could indicate an attack or compromise.
+The objective of this lab was to gain an understanding of Windows PowerShell Logs and learn how to analyze PowerShell-related events. I explored and analyzed PowerShell logs to detect suspicious or malicious commands that could indicate an attack or system compromise.
 
 ## Lab Setup
 ## Requirements:
