@@ -1,7 +1,7 @@
 # Day-5: Log Analysis Basics – Linux Auth Log
 
 ## Objective: 
-The objective of this lab is to simulate an **SSH brute force attack** and demonstrate how to detect it using **Linux authentication logs**. Students will learn how to identify multiple failed login attempts and analyze patterns to uncover brute force activity.
+The objective of this lab was to simulate an SSH brute force attack and demonstrate how to detect it using Linux authentication logs. I identified multiple failed login attempts and analyzed log patterns to uncover and understand brute force activity.
 
 ## Lab Setup
 ### System Requirements
