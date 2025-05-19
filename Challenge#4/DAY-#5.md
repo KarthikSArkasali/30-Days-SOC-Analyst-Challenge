@@ -1,11 +1,11 @@
 # Day-#5: Splunk Basics – Zeek Connection Log Analysis
 
 # Objective
-In this lab, you will:
+In this lab, I:
 
-- Learn how to upload and search Zeek connection logs in Splunk.
-- Find top clients, top servers, and most common services.
-- Identify large traffic and long connections.
+- Learned how to upload and search Zeek connection logs in Splunk.
+- Identified top clients, top servers, and the most common services.
+- Detected large traffic flows and long-lasting connections.
 
 ## Lab Setup
 - Splunk: Already installed and accessible.
