@@ -83,7 +83,7 @@ Types of Vulnerabilities
   ![2](https://github.com/user-attachments/assets/316899f0-a0bd-4b2a-8c52-b0d4f4934e63)
 
 - Suggested mitigation step
-  - For CVE-2025-27516 – Mitigation Steps:
+  - Mitigation Steps for CVE-2025-27516:
     - Upgrade Jinja to version 3.1.6 or later to fix the sandbox bypass issue.
     - Avoid processing untrusted templates in your application.
     - Review and sanitize template inputs to prevent injection.
