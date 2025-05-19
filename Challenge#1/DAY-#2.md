@@ -2,7 +2,7 @@
 
 ## Objective:
 
-The objective of this lab was to gain an understanding of Windows Security Logs and how to analyze them for security-related events. I explored and analyzed various logs, including login attempts, user account changes, and other critical system events that could indicate potential security threats.
+The objective of this lab was to gain hands-on experience with Windows Security Logs and understand how to analyze them for security-related events. I explored and analyzed various security logs such as login attempts, user account changes, and other critical system events that could indicate potential security threats.
 
 ## Lab Setup
 
