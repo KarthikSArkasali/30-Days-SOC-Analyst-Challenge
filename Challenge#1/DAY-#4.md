@@ -1,7 +1,8 @@
 # Day-4: Log Analysis Basics – Network-Based Attack Detection Using UFW
 
 ## Objective:
-The objective of this lab is to simulate a network-based port scan attack and demonstrate how to detect it using ufw.log logs on a Linux system. Students will learn how to launch the HTTP scan prob from Kali Linux(attacker) machine and detect these scan ataempt on Victim machine using UFW.
+
+The objective of this lab was to simulate a network-based port scan attack and demonstrate how to detect it using `ufw.log` on a Linux system. I launched an HTTP scan probe from a Kali Linux (attacker) machine and successfully detected the scan attempts on the victim machine using UFW logs.
 
 ## Lab Setup
 ### System Requirements
