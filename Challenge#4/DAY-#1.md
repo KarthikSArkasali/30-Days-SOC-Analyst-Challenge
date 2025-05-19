@@ -1,6 +1,6 @@
 # Day-#1: Install and Configure Splunk
 ## Objective
-The objective of this task is to help students install and configure Splunk on an Ubuntu machine. By completing this task, students will have Splunk up and running to collect and analyze security logs.
+The objective of this task was to install and configure Splunk on an Ubuntu machine. I successfully set up Splunk to collect and analyze security logs.
 
 ## Lab Setup
 ### Requirements
