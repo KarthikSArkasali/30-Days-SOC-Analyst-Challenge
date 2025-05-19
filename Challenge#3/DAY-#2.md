@@ -1,6 +1,6 @@
 # Day-#2: Incident Response Basics – Linux Suspicious Bash Script Execution
 # Objective:
-The objective of this lab is to help students understand the core steps of incident response by investigating a suspicious bash script execution on a Linux system. Students will learn how to detect, analyze, and respond to a basic script-based intrusion.
+The objective of this lab was to understand the core steps of incident response by investigating a suspicious bash script execution on a Linux system. I learned how to detect, analyze, and respond to a basic script-based intrusion.
 
 ## What is Incident Response?
 **Incident Response (IR)** is the process of detecting and managing a cybersecurity incident to minimize impact and restore normal operations. This lab introduces a basic Linux scenario where an attacker’s script is executed through user error or misconfiguration.
