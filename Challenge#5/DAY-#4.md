@@ -1,6 +1,6 @@
 # Day-#4- Introduction to Malware Analysis
 ## Lab Objective:
-This lab introduces students to the basics of malware analysis. You’ll learn how to identify malicious files, analyze them statically using free tools, and extract indicators like file names, hashes, strings, and behavior — all without needing to run the malware.
+This lab introduced me to the basics of malware analysis. I learned how to identify malicious files, perform static analysis using free tools, and extract indicators such as file names, hashes, strings, and behavior—all without executing the malware.
 
 ## What is Malware Analysis?
 **Malware Analysis** is the process of examining malicious software to understand its origin, behavior, impact, and indicators. It helps SOC analysts detect infections, contain threats, and prevent future compromises.
